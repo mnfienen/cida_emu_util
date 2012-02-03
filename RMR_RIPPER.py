@@ -45,8 +45,15 @@ indat = open(rmrfile,'r')
 
 # make a list of nodes - each is a member of class PESTsum
 ALLNODES = []
+
+k = -1
 # read the RMR file and populate the PESTsum class members --> also calculate times of all full runs
 for line in indat:
+    k+=1
+    if k==433:
+        i =1
+    elif k==905:
+        i=1
     if 'assigned to node at working directory' in line:
         cnode = int(re.findall("index of (.*?) assigned to node at working",line)[0])
         runloc = line.strip().split()[-1][1:-2]
@@ -55,29 +62,31 @@ for line in indat:
         ALLNODES.append(PESTsum(cnode,runloc,timestart))
     elif 'commencing on node' in line:
         crun = int(re.findall("model run (.*?) commencing on node",line)[0])
-        sttime = line.strip().split('.')[0]
         cnode = line.strip().split()[-1]
         cnode = int(cnode.split('.')[0])
         sttime = line.strip().split('.')[0]
         sttime = dt.strptime(sttime,intimefmt)
         ALLNODES[cnode-1].runs.append(arun(cnode,crun,sttime))
-    elif 'completed on node ' in line:
+    elif 'completed on node' in line:
         crun = int(re.findall("model run (.*?) completed on node",line)[0])
         cnode = line.strip().split()[-1]
         cnode = int(cnode.split('.')[0])
         endtime = line.strip().split('.')[0]
         endtime = dt.strptime(endtime,intimefmt)   
         for current_run in ALLNODES[cnode-1].runs:
-            if current_run.runnum == crun:
-                current_run.endtime = endtime
-                # if the time turns the corner around midnight, assume the end time is in the 
-                # next day (NB-->this doesn't account for times longer than 24 hours)
-                if current_run.endtime < current_run.starttime:
-                    current_run.endtime += timedelta(days=1)
-                # calculate the total time in seconds
-                current_run.elapsed_time = (current_run.endtime-
-                                            current_run.starttime).total_seconds()
+            if (current_run.runnum == crun):
+                if current_run.elapsed_time == 0:
+                    current_run.endtime = endtime
+                    # if the time turns the corner around midnight, assume the end time is in the 
+                    # next day (NB-->this doesn't account for times longer than 24 hours)
+                    if current_run.endtime < current_run.starttime:
+                        current_run.endtime += timedelta(days=1)
+                    # calculate the total time in seconds
+                    current_run.elapsed_time = (current_run.endtime-
+                                                current_run.starttime).total_seconds()
 del indat
+
+allruns = []
 
 ofp = open(rmrfile + '.RiPpErReD','w')
 ofp.write('Rippage of the RMR file called:- ' + rmrfile +'\n')
@@ -89,7 +98,12 @@ for cnode in ALLNODES:
     rtimes = []
     for crun in cnode.runs:
         if crun.elapsed_time:
+            # append to the list of run times
             rtimes.append(crun.elapsed_time)
+            
+            # also update allruns
+            allruns.append([crun.runnum,cnode.pestnum,crun.elapsed_time])
+            
     if len(rtimes)>0:
         rtimes = np.array(rtimes)
         ofp.write('%-8d' %(cnode.pestnum))
@@ -109,3 +123,18 @@ for cnode in ALLNODES:
             
 ofp.close()
 
+allruns = np.array(allruns)
+allruns = allruns[allruns[:,0].argsort(axis=0)]
+ofp = open(rmrfile + '.verboseRipped','w')
+ofp.write('VERBOSE DETAILS of Rippage of the RMR file called:- ' + rmrfile +'\n')
+ofp.write('ALL TIMES REPORTED IN UNITS OF ' + timeunits + '\n')
+ofp.write('*==' * 30 + '*\n')
+ofp.write('%-10s%-10s%-10s\n' %('Run#','Node#','Time'))
+for i in allruns:
+    if timeunits == 'minutes':
+        ct = i[2]/60.0
+    elif timeunits == 'hours':
+        ct = i[2]/60.0/60.0        
+    ofp.write('%-10d%-10d%-10f\n' %(i[0],i[1],ct))
+    
+ofp.close()
