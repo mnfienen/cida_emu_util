@@ -1,0 +1,1363 @@
+              PEST RUN MANAGEMENT RECORD: CASE finale21f_reg_svd2
+ 
+ 
+ ****************************************
+ RUN MANAGEMENT UNDERTAKEN USING BEOPEST.
+ COMMUNICATIONS PROTOCOL = TCP.
+ ****************************************
+ 
+
+ BEOPEST found a run management file for current case in the current directory.
+ A value for PARLAM was read from that file.
+
+ BEOPEST PARLAM behaviour is as follows:-
+ PARALLELISE LAMBDA SEARCH     : yes
+ MAX SLAVES IN LAMDBA SEARCH   : 25
+
+ RUNNING MODEL WITH INITIAL PARAMETER VALUES AND FOR FIRST JACOBIAN.....
+
+ Running model 202 times....
+   13:40:08.43:- index of 1 assigned to node at working directory "130.11.177.129\\D:\condor\execute\dir_3508".
+   13:40:08.43:- index of 2 assigned to node at working directory "130.11.177.129\\D:\condor\execute\dir_3552".
+   13:40:08.43:- index of 3 assigned to node at working directory "130.11.177.130\\D:\condor\execute\dir_3516".
+   13:40:08.43:- index of 4 assigned to node at working directory "130.11.177.130\\D:\condor\execute\dir_3408".
+   13:40:08.43:- index of 5 assigned to node at working directory "130.11.177.131\\D:\condor\execute\dir_3176".
+   13:40:08.43:- index of 6 assigned to node at working directory "130.11.177.131\\D:\condor\execute\dir_3164".
+   13:40:08.70:- model run 1 commencing on node 6.
+   13:40:08.70:- model run 2 commencing on node 5.
+   13:40:08.70:- model run 3 commencing on node 4.
+   13:40:08.70:- model run 4 commencing on node 3.
+   13:40:08.70:- model run 5 commencing on node 2.
+   13:40:08.70:- model run 6 commencing on node 1.
+   13:40:18.76:- index of 7 assigned to node at working directory "130.11.177.102\\D:\condor\execute\dir_4044".
+   13:40:18.76:- model run 7 commencing on node 7.
+   13:40:20.85:- index of 8 assigned to node at working directory "130.11.177.102\\D:\condor\execute\dir_3188".
+   13:40:20.85:- model run 8 commencing on node 8.
+   13:40:23.14:- index of 9 assigned to node at working directory "130.11.177.121\\D:\condor\execute\dir_3592".
+   13:40:23.14:- index of 10 assigned to node at working directory "130.11.177.125\\D:\condor\execute\dir_324".
+   13:40:23.14:- index of 11 assigned to node at working directory "130.11.177.121\\D:\condor\execute\dir_3004".
+   13:40:23.14:- index of 12 assigned to node at working directory "130.11.177.119\\D:\condor\execute\dir_1692".
+   13:40:23.14:- model run 9 commencing on node 12.
+   13:40:27.21:- index of 13 assigned to node at working directory "130.11.177.119\\D:\condor\execute\dir_2124".
+   13:40:27.21:- index of 14 assigned to node at working directory "130.11.177.110\\D:\condor\execute\dir_1008".
+   13:40:27.21:- index of 15 assigned to node at working directory "130.11.177.111\\D:\condor\execute\dir_2328".
+   13:40:27.21:- index of 16 assigned to node at working directory "130.11.177.111\\D:\condor\execute\dir_2392".
+   13:40:27.21:- index of 17 assigned to node at working directory "130.11.177.118\\D:\condor\execute\dir_1888".
+   13:40:27.21:- index of 18 assigned to node at working directory "130.11.177.118\\D:\condor\execute\dir_1008".
+   13:40:27.21:- index of 19 assigned to node at working directory "130.11.177.116\\D:\condor\execute\dir_3016".
+   13:40:27.21:- index of 20 assigned to node at working directory "130.11.177.116\\D:\condor\execute\dir_1972".
+   13:40:27.21:- index of 21 assigned to node at working directory "130.11.177.125\\D:\condor\execute\dir_2476".
+   13:40:27.23:- model run 10 commencing on node 21.
+   13:40:27.23:- model run 11 commencing on node 20.
+   13:40:27.23:- model run 12 commencing on node 19.
+   13:40:27.23:- model run 13 commencing on node 18.
+   13:40:27.23:- model run 14 commencing on node 17.
+   13:40:27.23:- model run 15 commencing on node 16.
+   13:40:27.23:- model run 16 commencing on node 15.
+   13:40:27.23:- model run 17 commencing on node 14.
+   13:40:27.23:- model run 18 commencing on node 13.
+   13:40:27.23:- model run 19 commencing on node 11.
+   13:40:27.23:- model run 20 commencing on node 10.
+   13:40:27.23:- model run 21 commencing on node 9.
+   13:40:29.60:- index of 22 assigned to node at working directory "130.11.177.126\\D:\condor\execute\dir_1896".
+   13:40:29.60:- index of 23 assigned to node at working directory "130.11.177.122\\D:\condor\execute\dir_1336".
+   13:40:29.60:- index of 24 assigned to node at working directory "130.11.177.113\\D:\condor\execute\dir_2796".
+   13:40:29.60:- index of 25 assigned to node at working directory "130.11.177.113\\D:\condor\execute\dir_1540".
+   13:40:29.60:- model run 22 commencing on node 25.
+   13:40:29.60:- model run 23 commencing on node 24.
+   13:40:29.60:- model run 24 commencing on node 23.
+   13:40:29.60:- model run 25 commencing on node 22.
+   13:40:32.16:- index of 26 assigned to node at working directory "130.11.177.110\\D:\condor\execute\dir_1768".
+   13:40:32.16:- index of 27 assigned to node at working directory "130.11.177.106\\D:\condor\execute\dir_568".
+   13:40:32.16:- index of 28 assigned to node at working directory "130.11.177.123\\D:\condor\execute\dir_2464".
+   13:40:32.16:- index of 29 assigned to node at working directory "130.11.177.123\\D:\condor\execute\dir_3788".
+   13:40:32.16:- model run 26 commencing on node 29.
+   13:40:32.16:- model run 27 commencing on node 28.
+   13:40:32.16:- model run 28 commencing on node 27.
+   13:40:32.16:- model run 29 commencing on node 26.
+   13:40:32.60:- index of 30 assigned to node at working directory "130.11.177.106\\D:\condor\execute\dir_952".
+   13:40:32.60:- model run 30 commencing on node 30.
+   13:40:36.31:- index of 31 assigned to node at working directory "130.11.177.108\\D:\condor\execute\dir_2404".
+   13:40:36.31:- index of 32 assigned to node at working directory "130.11.177.108\\D:\condor\execute\dir_2428".
+   13:40:36.31:- index of 33 assigned to node at working directory "130.11.177.120\\D:\condor\execute\dir_2556".
+   13:40:36.31:- index of 34 assigned to node at working directory "130.11.177.120\\D:\condor\execute\dir_840".
+   13:40:36.31:- index of 35 assigned to node at working directory "130.11.177.101\\D:\condor\execute\dir_956".
+   13:40:36.31:- model run 31 commencing on node 35.
+   13:40:36.31:- model run 32 commencing on node 34.
+   13:40:36.31:- model run 33 commencing on node 33.
+   13:40:36.31:- model run 34 commencing on node 32.
+   13:40:36.31:- model run 35 commencing on node 31.
+   13:40:40.43:- index of 36 assigned to node at working directory "130.11.177.101\\D:\condor\execute\dir_3600".
+   13:40:40.43:- index of 37 assigned to node at working directory "130.11.177.117\\D:\condor\execute\dir_1324".
+   13:40:40.43:- index of 38 assigned to node at working directory "130.11.177.117\\D:\condor\execute\dir_2648".
+   13:40:40.43:- index of 39 assigned to node at working directory "130.11.177.107\\D:\condor\execute\dir_2344".
+   13:40:40.43:- index of 40 assigned to node at working directory "130.11.177.107\\D:\condor\execute\dir_1716".
+   13:40:40.43:- index of 41 assigned to node at working directory "130.11.177.114\\D:\condor\execute\dir_2300".
+   13:40:40.43:- index of 42 assigned to node at working directory "130.11.177.126\\D:\condor\execute\dir_2312".
+   13:40:40.43:- index of 43 assigned to node at working directory "130.11.177.109\\D:\condor\execute\dir_1688".
+   13:40:40.43:- index of 44 assigned to node at working directory "130.11.177.83\\C:\Condor\execute\dir_556".
+   13:40:40.44:- model run 36 commencing on node 44.
+   13:40:40.44:- model run 37 commencing on node 43.
+   13:40:40.44:- model run 38 commencing on node 42.
+   13:40:40.44:- model run 39 commencing on node 41.
+   13:40:40.44:- model run 40 commencing on node 40.
+   13:40:40.44:- model run 41 commencing on node 39.
+   13:40:40.44:- model run 42 commencing on node 38.
+   13:40:40.44:- model run 43 commencing on node 37.
+   13:40:40.44:- model run 44 commencing on node 36.
+   13:40:47.54:- index of 45 assigned to node at working directory "130.11.177.115\\D:\condor\execute\dir_348".
+   13:40:47.54:- index of 46 assigned to node at working directory "130.11.177.115\\D:\condor\execute\dir_1708".
+   13:40:47.54:- index of 47 assigned to node at working directory "130.11.177.114\\D:\condor\execute\dir_1108".
+   13:40:47.54:- index of 48 assigned to node at working directory "130.11.177.128\\D:\condor\execute\dir_1848".
+   13:40:47.54:- index of 49 assigned to node at working directory "130.11.177.124\\D:\condor\execute\dir_2192".
+   13:40:47.54:- index of 50 assigned to node at working directory "130.11.177.109\\D:\condor\execute\dir_328".
+   13:40:47.54:- index of 51 assigned to node at working directory "130.11.177.103\\D:\condor\execute\dir_780".
+   13:40:47.54:- index of 52 assigned to node at working directory "130.11.177.124\\D:\condor\execute\dir_1804".
+   13:40:47.54:- index of 53 assigned to node at working directory "130.11.177.75\\C:\Condor\execute\dir_3248".
+   13:40:47.54:- index of 54 assigned to node at working directory "130.11.177.75\\C:\Condor\execute\dir_3972".
+   13:40:47.54:- index of 55 assigned to node at working directory "130.11.177.75\\C:\Condor\execute\dir_4992".
+   13:40:47.54:- index of 56 assigned to node at working directory "130.11.177.103\\D:\condor\execute\dir_184".
+   13:40:47.54:- index of 57 assigned to node at working directory "130.11.177.83\\C:\Condor\execute\dir_3424".
+   13:40:47.56:- model run 45 commencing on node 57.
+   13:40:47.56:- model run 46 commencing on node 56.
+   13:40:47.56:- model run 47 commencing on node 55.
+   13:40:47.56:- model run 48 commencing on node 54.
+   13:40:47.56:- model run 49 commencing on node 53.
+   13:40:47.56:- model run 50 commencing on node 52.
+   13:40:47.56:- model run 51 commencing on node 51.
+   13:40:47.56:- model run 52 commencing on node 50.
+   13:40:47.56:- model run 53 commencing on node 49.
+   13:40:47.56:- model run 54 commencing on node 48.
+   13:40:47.56:- model run 55 commencing on node 47.
+   13:40:47.56:- model run 56 commencing on node 46.
+   13:40:47.56:- model run 57 commencing on node 45.
+   13:40:55.31:- index of 58 assigned to node at working directory "130.11.177.104\\D:\condor\execute\dir_2468".
+   13:40:55.31:- index of 59 assigned to node at working directory "130.11.177.104\\D:\condor\execute\dir_2020".
+   13:40:55.31:- index of 60 assigned to node at working directory "130.11.177.128\\D:\condor\execute\dir_2120".
+   13:40:55.31:- index of 61 assigned to node at working directory "130.11.177.84\\C:\Condor\execute\dir_2840".
+   13:40:55.31:- index of 62 assigned to node at working directory "130.11.177.105\\D:\condor\execute\dir_3328".
+   13:40:55.31:- index of 63 assigned to node at working directory "130.11.177.105\\D:\condor\execute\dir_156".
+   13:40:55.31:- index of 64 assigned to node at working directory "130.11.177.112\\D:\condor\execute\dir_2056".
+   13:40:55.31:- index of 65 assigned to node at working directory "130.11.177.112\\D:\condor\execute\dir_2020".
+   13:40:55.31:- index of 66 assigned to node at working directory "130.11.177.88\\C:\Condor\execute\dir_4784".
+   13:40:55.31:- index of 67 assigned to node at working directory "130.11.177.89\\C:\Condor\execute\dir_1628".
+   13:40:55.31:- index of 68 assigned to node at working directory "130.11.177.89\\C:\Condor\execute\dir_3676".
+   13:40:55.31:- index of 69 assigned to node at working directory "130.11.177.84\\C:\Condor\execute\dir_3848".
+   13:40:55.31:- index of 70 assigned to node at working directory "130.11.177.88\\C:\Condor\execute\dir_3884".
+   13:40:55.31:- index of 71 assigned to node at working directory "130.11.177.127\\D:\condor\execute\dir_2612".
+   13:40:55.31:- index of 72 assigned to node at working directory "130.11.177.98\\C:\Condor\execute\dir_3320".
+   13:40:55.31:- index of 73 assigned to node at working directory "130.11.177.127\\D:\condor\execute\dir_212".
+   13:40:55.31:- index of 74 assigned to node at working directory "130.11.177.73\\C:\Condor\execute\dir_1460".
+   13:40:55.33:- model run 58 commencing on node 74.
+   13:40:55.33:- model run 59 commencing on node 73.
+   13:40:55.33:- model run 60 commencing on node 72.
+   13:40:55.33:- model run 61 commencing on node 71.
+   13:40:55.33:- model run 62 commencing on node 70.
+   13:40:55.33:- model run 63 commencing on node 69.
+   13:40:55.33:- model run 64 commencing on node 68.
+   13:40:55.33:- model run 65 commencing on node 67.
+   13:40:55.33:- model run 66 commencing on node 66.
+   13:40:55.33:- model run 67 commencing on node 65.
+   13:40:55.33:- model run 68 commencing on node 64.
+   13:40:55.33:- model run 69 commencing on node 63.
+   13:40:55.33:- model run 70 commencing on node 62.
+   13:40:55.33:- model run 71 commencing on node 61.
+   13:40:55.33:- model run 72 commencing on node 60.
+   13:40:55.33:- model run 73 commencing on node 59.
+   13:40:55.33:- model run 74 commencing on node 58.
+   13:40:57.13:- index of 75 assigned to node at working directory "130.11.177.87\\C:\Condor\execute\dir_3944".
+   13:40:57.13:- index of 76 assigned to node at working directory "130.11.177.74\\C:\Condor\execute\dir_4232".
+   13:40:57.13:- index of 77 assigned to node at working directory "130.11.177.78\\C:\Condor\execute\dir_4160".
+   13:40:57.13:- model run 75 commencing on node 77.
+   13:40:57.13:- model run 76 commencing on node 76.
+   13:40:57.13:- model run 77 commencing on node 75.
+   13:40:57.57:- index of 78 assigned to node at working directory "130.11.177.89\\C:\Condor\execute\dir_4616".
+   13:40:57.57:- model run 78 commencing on node 78.
+   13:41:03.83:- index of 79 assigned to node at working directory "130.11.177.88\\C:\Condor\execute\dir_3160".
+   13:41:03.83:- index of 80 assigned to node at working directory "130.11.177.81\\C:\Condor\execute\dir_4832".
+   13:41:03.83:- index of 81 assigned to node at working directory "130.11.177.87\\C:\Condor\execute\dir_4896".
+   13:41:03.83:- index of 82 assigned to node at working directory "130.11.177.77\\C:\Condor\execute\dir_3940".
+   13:41:03.83:- index of 83 assigned to node at working directory "130.11.177.75\\C:\Condor\execute\dir_4100".
+   13:41:03.83:- index of 84 assigned to node at working directory "130.11.177.75\\C:\Condor\execute\dir_3484".
+   13:41:03.83:- index of 85 assigned to node at working directory "130.11.177.79\\C:\Condor\execute\dir_2096".
+   13:41:03.83:- index of 86 assigned to node at working directory "130.11.177.83\\C:\Condor\execute\dir_4972".
+   13:41:03.83:- index of 87 assigned to node at working directory "130.11.177.83\\C:\Condor\execute\dir_1908".
+   13:41:03.83:- index of 88 assigned to node at working directory "130.11.177.77\\C:\Condor\execute\dir_3752".
+   13:41:03.83:- index of 89 assigned to node at working directory "130.11.177.82\\C:\Condor\execute\dir_1936".
+   13:41:03.83:- index of 90 assigned to node at working directory "130.11.177.85\\C:\Condor\execute\dir_4108".
+   13:41:03.83:- index of 91 assigned to node at working directory "130.11.177.86\\C:\Condor\execute\dir_123296".
+   13:41:03.83:- model run 79 commencing on node 91.
+   13:41:03.83:- model run 80 commencing on node 90.
+   13:41:03.83:- model run 81 commencing on node 89.
+   13:41:03.83:- model run 82 commencing on node 88.
+   13:41:03.83:- model run 83 commencing on node 87.
+   13:41:03.83:- model run 84 commencing on node 86.
+   13:41:03.83:- model run 85 commencing on node 85.
+   13:41:03.83:- model run 86 commencing on node 84.
+   13:41:03.83:- model run 87 commencing on node 83.
+   13:41:03.84:- model run 88 commencing on node 82.
+   13:41:03.84:- model run 89 commencing on node 81.
+   13:41:03.84:- model run 90 commencing on node 80.
+   13:41:03.84:- model run 91 commencing on node 79.
+   13:41:05.70:- index of 92 assigned to node at working directory "130.11.177.83\\C:\Condor\execute\dir_4900".
+   13:41:05.70:- index of 93 assigned to node at working directory "130.11.177.84\\C:\Condor\execute\dir_4012".
+   13:41:05.70:- index of 94 assigned to node at working directory "130.11.177.88\\C:\Condor\execute\dir_3792".
+   13:41:05.70:- index of 95 assigned to node at working directory "130.11.177.89\\C:\Condor\execute\dir_2880".
+   13:41:05.70:- model run 92 commencing on node 95.
+   13:41:05.70:- model run 93 commencing on node 94.
+   13:41:05.70:- model run 94 commencing on node 93.
+   13:41:05.70:- model run 95 commencing on node 92.
+   13:41:07.53:- index of 96 assigned to node at working directory "130.11.177.87\\C:\Condor\execute\dir_4468".
+   13:41:07.53:- model run 96 commencing on node 96.
+   13:41:09.05:- index of 97 assigned to node at working directory "130.11.177.80\\C:\Condor\execute\dir_2900".
+   13:41:09.05:- index of 98 assigned to node at working directory "130.11.177.79\\C:\Condor\execute\dir_4732".
+   13:41:09.05:- index of 99 assigned to node at working directory "130.11.177.83\\C:\Condor\execute\dir_3768".
+   13:41:09.05:- model run 97 commencing on node 99.
+   13:41:09.05:- model run 98 commencing on node 98.
+   13:41:09.05:- model run 99 commencing on node 97.
+   13:41:13.20:- index of 100 assigned to node at working directory "130.11.177.83\\C:\Condor\execute\dir_1648".
+   13:41:13.20:- index of 101 assigned to node at working directory "130.11.177.85\\C:\Condor\execute\dir_628".
+   13:41:13.20:- index of 102 assigned to node at working directory "130.11.177.80\\C:\Condor\execute\dir_1744".
+   13:41:13.20:- index of 103 assigned to node at working directory "130.11.177.83\\C:\Condor\execute\dir_4692".
+   13:41:13.20:- index of 104 assigned to node at working directory "130.11.177.84\\C:\Condor\execute\dir_3988".
+   13:41:13.20:- index of 105 assigned to node at working directory "130.11.177.75\\C:\Condor\execute\dir_956".
+   13:41:13.20:- index of 106 assigned to node at working directory "130.11.177.81\\C:\Condor\execute\dir_3616".
+   13:41:13.20:- index of 107 assigned to node at working directory "130.11.177.78\\C:\Condor\execute\dir_3056".
+   13:41:13.20:- model run 100 commencing on node 107.
+   13:41:13.20:- model run 101 commencing on node 106.
+   13:41:13.20:- model run 102 commencing on node 105.
+   13:41:13.20:- model run 103 commencing on node 104.
+   13:41:13.20:- model run 104 commencing on node 103.
+   13:41:13.20:- model run 105 commencing on node 102.
+   13:41:13.20:- model run 106 commencing on node 101.
+   13:41:13.20:- model run 107 commencing on node 100.
+   13:41:16.87:- index of 108 assigned to node at working directory "130.11.177.77\\C:\Condor\execute\dir_3964".
+   13:41:16.87:- index of 109 assigned to node at working directory "130.11.177.98\\C:\Condor\execute\dir_2584".
+   13:41:16.87:- index of 110 assigned to node at working directory "130.11.177.75\\C:\Condor\execute\dir_3932".
+   13:41:16.87:- index of 111 assigned to node at working directory "130.11.177.84\\C:\Condor\execute\dir_2872".
+   13:41:16.87:- index of 112 assigned to node at working directory "130.11.177.89\\C:\Condor\execute\dir_4104".
+   13:41:16.87:- model run 108 commencing on node 112.
+   13:41:16.87:- model run 109 commencing on node 111.
+   13:41:16.87:- model run 110 commencing on node 110.
+   13:41:16.87:- model run 111 commencing on node 109.
+   13:41:16.87:- model run 112 commencing on node 108.
+   13:41:17.54:- index of 113 assigned to node at working directory "130.11.177.98\\C:\Condor\execute\dir_3456".
+   13:41:17.54:- model run 113 commencing on node 113.
+   13:41:18.43:- index of 114 assigned to node at working directory "130.11.177.88\\C:\Condor\execute\dir_4476".
+   13:41:18.43:- model run 114 commencing on node 114.
+   13:41:20.44:- index of 115 assigned to node at working directory "130.11.177.82\\C:\Condor\execute\dir_4844".
+   13:41:20.44:- index of 116 assigned to node at working directory "130.11.177.85\\C:\Condor\execute\dir_4352".
+   13:41:20.44:- index of 117 assigned to node at working directory "130.11.177.77\\C:\Condor\execute\dir_3140".
+   13:41:20.44:- index of 118 assigned to node at working directory "130.11.177.78\\C:\Condor\execute\dir_1868".
+   13:41:20.44:- model run 115 commencing on node 118.
+   13:41:20.44:- model run 116 commencing on node 117.
+   13:41:20.44:- model run 117 commencing on node 116.
+   13:41:20.44:- model run 118 commencing on node 115.
+   13:41:22.11:- index of 119 assigned to node at working directory "130.11.177.74\\C:\Condor\execute\dir_380".
+   13:41:22.11:- index of 120 assigned to node at working directory "130.11.177.84\\C:\Condor\execute\dir_3952".
+   13:41:22.11:- model run 119 commencing on node 120.
+   13:41:22.11:- model run 120 commencing on node 119.
+   13:41:22.58:- index of 121 assigned to node at working directory "130.11.177.75\\C:\Condor\execute\dir_4296".
+   13:41:22.58:- model run 121 commencing on node 121.
+   13:41:23.75:- index of 122 assigned to node at working directory "130.11.177.88\\C:\Condor\execute\dir_1692".
+   13:41:23.75:- index of 123 assigned to node at working directory "130.11.177.87\\C:\Condor\execute\dir_4536".
+   13:41:23.75:- model run 122 commencing on node 123.
+   13:41:23.75:- model run 123 commencing on node 122.
+   13:41:24.86:- index of 124 assigned to node at working directory "130.11.177.87\\C:\Condor\execute\dir_220".
+   13:41:24.86:- model run 124 commencing on node 124.
+   13:41:30.69:- index of 125 assigned to node at working directory "130.11.177.98\\C:\Condor\execute\dir_1456".
+   13:41:30.69:- index of 126 assigned to node at working directory "130.11.177.98\\C:\Condor\execute\dir_3888".
+   13:41:30.69:- index of 127 assigned to node at working directory "130.11.177.98\\C:\Condor\execute\dir_4056".
+   13:41:30.69:- index of 128 assigned to node at working directory "130.11.177.82\\C:\Condor\execute\dir_4128".
+   13:41:30.69:- index of 129 assigned to node at working directory "130.11.177.80\\C:\Condor\execute\dir_4892".
+   13:41:30.69:- index of 130 assigned to node at working directory "130.11.177.80\\C:\Condor\execute\dir_2012".
+   13:41:30.69:- index of 131 assigned to node at working directory "130.11.177.89\\C:\Condor\execute\dir_3784".
+   13:41:30.69:- index of 132 assigned to node at working directory "130.11.177.89\\C:\Condor\execute\dir_3764".
+   13:41:30.69:- index of 133 assigned to node at working directory "130.11.177.89\\C:\Condor\execute\dir_3556".
+   13:41:30.69:- index of 134 assigned to node at working directory "130.11.177.74\\C:\Condor\execute\dir_2916".
+   13:41:30.69:- index of 135 assigned to node at working directory "130.11.177.86\\C:\Condor\execute\dir_123036".
+   13:41:30.69:- index of 136 assigned to node at working directory "130.11.177.88\\C:\Condor\execute\dir_2308".
+   13:41:30.69:- index of 137 assigned to node at working directory "130.11.177.88\\C:\Condor\execute\dir_3456".
+   13:41:30.71:- model run 125 commencing on node 137.
+   13:41:30.71:- model run 126 commencing on node 136.
+   13:41:30.71:- model run 127 commencing on node 135.
+   13:41:30.71:- model run 128 commencing on node 134.
+   13:41:30.71:- model run 129 commencing on node 133.
+   13:41:30.71:- model run 130 commencing on node 132.
+   13:41:30.71:- model run 131 commencing on node 131.
+   13:41:30.71:- model run 132 commencing on node 130.
+   13:41:30.71:- model run 133 commencing on node 129.
+   13:41:30.71:- model run 134 commencing on node 128.
+   13:41:30.71:- model run 135 commencing on node 127.
+   13:41:30.71:- model run 136 commencing on node 126.
+   13:41:30.71:- model run 137 commencing on node 125.
+   13:41:31.25:- index of 138 assigned to node at working directory "130.11.177.77\\C:\Condor\execute\dir_5080".
+   13:41:31.25:- model run 138 commencing on node 138.
+   13:41:35.50:- index of 139 assigned to node at working directory "130.11.177.82\\C:\Condor\execute\dir_2296".
+   13:41:35.50:- index of 140 assigned to node at working directory "130.11.177.79\\C:\Condor\execute\dir_5012".
+   13:41:35.50:- index of 141 assigned to node at working directory "130.11.177.81\\C:\Condor\execute\dir_660".
+   13:41:35.50:- index of 142 assigned to node at working directory "130.11.177.84\\C:\Condor\execute\dir_1620".
+   13:41:35.50:- index of 143 assigned to node at working directory "130.11.177.84\\C:\Condor\execute\dir_4044".
+   13:41:35.50:- index of 144 assigned to node at working directory "130.11.177.81\\C:\Condor\execute\dir_3876".
+   13:41:35.50:- index of 145 assigned to node at working directory "130.11.177.82\\C:\Condor\execute\dir_2816".
+   13:41:35.50:- index of 146 assigned to node at working directory "130.11.177.76\\C:\Condor\execute\dir_4284".
+   13:41:35.50:- index of 147 assigned to node at working directory "130.11.177.78\\C:\Condor\execute\dir_3852".
+   13:41:35.51:- model run 139 commencing on node 147.
+   13:41:35.51:- model run 140 commencing on node 146.
+   13:41:35.51:- model run 141 commencing on node 145.
+   13:41:35.51:- model run 142 commencing on node 144.
+   13:41:35.51:- model run 143 commencing on node 143.
+   13:41:35.51:- model run 144 commencing on node 142.
+   13:41:35.51:- model run 145 commencing on node 141.
+   13:41:35.51:- model run 146 commencing on node 140.
+   13:41:35.51:- model run 147 commencing on node 139.
+   13:41:36.92:- index of 148 assigned to node at working directory "130.11.177.74\\C:\Condor\execute\dir_2332".
+   13:41:36.92:- index of 149 assigned to node at working directory "130.11.177.79\\C:\Condor\execute\dir_3872".
+   13:41:36.92:- index of 150 assigned to node at working directory "130.11.177.87\\C:\Condor\execute\dir_4648".
+   13:41:36.92:- model run 148 commencing on node 150.
+   13:41:36.92:- model run 149 commencing on node 149.
+   13:41:36.92:- model run 150 commencing on node 148.
+   13:41:40.52:- index of 151 assigned to node at working directory "130.11.177.80\\C:\Condor\execute\dir_4784".
+   13:41:40.52:- model run 151 commencing on node 151.
+   13:41:44.89:- index of 152 assigned to node at working directory "130.11.177.87\\C:\Condor\execute\dir_5116".
+   13:41:44.89:- model run 152 commencing on node 152.
+   13:41:45.84:- index of 153 assigned to node at working directory "130.11.177.80\\C:\Condor\execute\dir_1448".
+   13:41:45.84:- index of 154 assigned to node at working directory "130.11.177.85\\C:\Condor\execute\dir_2024".
+   13:41:45.84:- model run 153 commencing on node 154.
+   13:41:45.84:- model run 154 commencing on node 153.
+   13:41:47.29:- index of 155 assigned to node at working directory "130.11.177.82\\C:\Condor\execute\dir_3420".
+   13:41:47.29:- index of 156 assigned to node at working directory "130.11.177.79\\C:\Condor\execute\dir_4524".
+   13:41:47.29:- index of 157 assigned to node at working directory "130.11.177.74\\C:\Condor\execute\dir_932".
+   13:41:47.29:- model run 155 commencing on node 157.
+   13:41:47.29:- model run 156 commencing on node 156.
+   13:41:47.29:- model run 157 commencing on node 155.
+   13:41:50.72:- index of 158 assigned to node at working directory "130.11.177.80\\C:\Condor\execute\dir_4312".
+   13:41:50.72:- model run 158 commencing on node 158.
+   13:41:51.30:- index of 159 assigned to node at working directory "130.11.177.85\\C:\Condor\execute\dir_4380".
+   13:41:51.30:- model run 159 commencing on node 159.
+   13:41:52.47:- index of 160 assigned to node at working directory "130.11.177.82\\C:\Condor\execute\dir_2796".
+   13:41:52.47:- model run 160 commencing on node 160.
+   13:41:53.59:- index of 161 assigned to node at working directory "130.11.177.77\\C:\Condor\execute\dir_3548".
+   13:41:53.59:- model run 161 commencing on node 161.
+   13:42:03.28:- index of 162 assigned to node at working directory "130.11.177.85\\C:\Condor\execute\dir_3240".
+   13:42:03.28:- index of 163 assigned to node at working directory "130.11.177.90\\C:\Condor\execute\dir_224".
+   13:42:03.28:- index of 164 assigned to node at working directory "130.11.177.81\\C:\Condor\execute\dir_4712".
+   13:42:03.28:- index of 165 assigned to node at working directory "130.11.177.90\\C:\Condor\execute\dir_628".
+   13:42:03.28:- index of 166 assigned to node at working directory "130.11.177.85\\C:\Condor\execute\dir_2300".
+   13:42:03.28:- index of 167 assigned to node at working directory "130.11.177.76\\C:\Condor\execute\dir_4736".
+   13:42:03.28:- index of 168 assigned to node at working directory "130.11.177.81\\C:\Condor\execute\dir_3592".
+   13:42:03.28:- index of 169 assigned to node at working directory "130.11.177.82\\C:\Condor\execute\dir_3952".
+   13:42:03.28:- index of 170 assigned to node at working directory "130.11.177.81\\C:\Condor\execute\dir_1012".
+   13:42:03.28:- index of 171 assigned to node at working directory "130.11.177.80\\C:\Condor\execute\dir_4372".
+   13:42:03.28:- index of 172 assigned to node at working directory "130.11.177.74\\C:\Condor\execute\dir_5060".
+   13:42:03.28:- index of 173 assigned to node at working directory "130.11.177.74\\C:\Condor\execute\dir_2692".
+   13:42:03.28:- index of 174 assigned to node at working directory "130.11.177.74\\C:\Condor\execute\dir_2308".
+   13:42:03.28:- index of 175 assigned to node at working directory "130.11.177.90\\C:\Condor\execute\dir_3060".
+   13:42:03.28:- index of 176 assigned to node at working directory "130.11.177.77\\C:\Condor\execute\dir_2640".
+   13:42:03.28:- index of 177 assigned to node at working directory "130.11.177.79\\C:\Condor\execute\dir_2808".
+   13:42:03.28:- index of 178 assigned to node at working directory "130.11.177.79\\C:\Condor\execute\dir_2312".
+   13:42:03.28:- index of 179 assigned to node at working directory "130.11.177.77\\C:\Condor\execute\dir_4976".
+   13:42:03.28:- index of 180 assigned to node at working directory "130.11.177.86\\C:\Condor\execute\dir_123204".
+   13:42:03.28:- index of 181 assigned to node at working directory "130.11.177.79\\C:\Condor\execute\dir_4720".
+   13:42:03.28:- index of 182 assigned to node at working directory "130.11.177.81\\C:\Condor\execute\dir_4000".
+   13:42:03.28:- index of 183 assigned to node at working directory "130.11.177.85\\C:\Condor\execute\dir_2280".
+   13:42:03.30:- model run 162 commencing on node 183.
+   13:42:03.30:- model run 163 commencing on node 182.
+   13:42:03.30:- model run 164 commencing on node 181.
+   13:42:03.30:- model run 165 commencing on node 180.
+   13:42:03.30:- model run 166 commencing on node 179.
+   13:42:03.30:- model run 167 commencing on node 178.
+   13:42:03.30:- model run 168 commencing on node 177.
+   13:42:03.30:- model run 169 commencing on node 176.
+   13:42:03.30:- model run 170 commencing on node 175.
+   13:42:03.30:- model run 171 commencing on node 174.
+   13:42:03.30:- model run 172 commencing on node 173.
+   13:42:03.30:- model run 173 commencing on node 172.
+   13:42:03.31:- model run 174 commencing on node 171.
+   13:42:03.31:- model run 175 commencing on node 170.
+   13:42:03.31:- model run 176 commencing on node 169.
+   13:42:03.31:- model run 177 commencing on node 168.
+   13:42:03.31:- model run 178 commencing on node 167.
+   13:42:03.31:- model run 179 commencing on node 166.
+   13:42:03.31:- model run 180 commencing on node 165.
+   13:42:03.31:- model run 181 commencing on node 164.
+   13:42:03.31:- model run 182 commencing on node 163.
+   13:42:03.31:- model run 183 commencing on node 162.
+   13:42:09.08:- index of 184 assigned to node at working directory "130.11.177.73\\C:\Condor\execute\dir_4004".
+   13:42:09.08:- index of 185 assigned to node at working directory "130.11.177.78\\C:\Condor\execute\dir_2604".
+   13:42:09.08:- index of 186 assigned to node at working directory "130.11.177.76\\C:\Condor\execute\dir_4964".
+   13:42:09.08:- index of 187 assigned to node at working directory "130.11.177.90\\C:\Condor\execute\dir_3912".
+   13:42:09.08:- index of 188 assigned to node at working directory "130.11.177.90\\C:\Condor\execute\dir_2796".
+   13:42:09.08:- index of 189 assigned to node at working directory "130.11.177.90\\C:\Condor\execute\dir_2728".
+   13:42:09.08:- index of 190 assigned to node at working directory "130.11.177.76\\C:\Condor\execute\dir_2176".
+   13:42:09.08:- index of 191 assigned to node at working directory "130.11.177.73\\C:\Condor\execute\dir_2124".
+   13:42:09.08:- index of 192 assigned to node at working directory "130.11.177.73\\C:\Condor\execute\dir_4084".
+   13:42:09.08:- index of 193 assigned to node at working directory "130.11.177.73\\C:\Condor\execute\dir_1588".
+   13:42:09.08:- index of 194 assigned to node at working directory "130.11.177.73\\C:\Condor\execute\dir_4120".
+   13:42:09.08:- index of 195 assigned to node at working directory "130.11.177.86\\C:\Condor\execute\dir_122708".
+   13:42:09.10:- model run 184 commencing on node 195.
+   13:42:09.10:- model run 185 commencing on node 194.
+   13:42:09.10:- model run 186 commencing on node 193.
+   13:42:09.10:- model run 187 commencing on node 192.
+   13:42:09.10:- model run 188 commencing on node 191.
+   13:42:09.10:- model run 189 commencing on node 190.
+   13:42:09.10:- model run 190 commencing on node 189.
+   13:42:09.10:- model run 191 commencing on node 188.
+   13:42:09.10:- model run 192 commencing on node 187.
+   13:42:09.10:- model run 193 commencing on node 186.
+   13:42:09.10:- model run 194 commencing on node 185.
+   13:42:09.10:- model run 195 commencing on node 184.
+   13:42:13.97:- index of 196 assigned to node at working directory "130.11.177.78\\C:\Condor\execute\dir_3320".
+   13:42:13.97:- index of 197 assigned to node at working directory "130.11.177.76\\C:\Condor\execute\dir_3252".
+   13:42:13.97:- index of 198 assigned to node at working directory "130.11.177.76\\C:\Condor\execute\dir_3196".
+   13:42:13.97:- index of 199 assigned to node at working directory "130.11.177.76\\C:\Condor\execute\dir_3952".
+   13:42:13.97:- index of 200 assigned to node at working directory "130.11.177.78\\C:\Condor\execute\dir_2844".
+   13:42:13.97:- index of 201 assigned to node at working directory "130.11.177.78\\C:\Condor\execute\dir_4760".
+   13:42:13.97:- index of 202 assigned to node at working directory "130.11.177.76\\C:\Condor\execute\dir_3508".
+   13:42:13.97:- index of 203 assigned to node at working directory "130.11.177.86\\C:\Condor\execute\dir_123576".
+   13:42:13.97:- index of 204 assigned to node at working directory "130.11.177.86\\C:\Condor\execute\dir_123284".
+   13:42:13.97:- model run 196 commencing on node 204.
+   13:42:13.97:- model run 197 commencing on node 203.
+   13:42:13.97:- model run 198 commencing on node 202.
+   13:42:13.97:- model run 199 commencing on node 201.
+   13:42:13.97:- model run 200 commencing on node 200.
+   13:42:13.97:- model run 201 commencing on node 199.
+   13:42:13.97:- model run 202 commencing on node 198.
+   13:42:15.03:- index of 205 assigned to node at working directory "130.11.177.90\\C:\Condor\execute\dir_2524".
+   13:42:16.15:- index of 206 assigned to node at working directory "130.11.177.86\\C:\Condor\execute\dir_61952".
+   13:42:18.18:- index of 207 assigned to node at working directory "130.11.177.86\\C:\Condor\execute\dir_122920".
+   13:42:18.82:- index of 208 assigned to node at working directory "130.11.177.90\\C:\Condor\execute\dir_3116".
+   16:20:53.81:- model run 6 completed on node 1.
+   16:20:54.22:- model run 5 completed on node 2.
+   16:20:54.37:- model run 3 completed on node 4.
+   16:20:54.58:- model run 4 completed on node 3.
+   16:20:55.47:- model run 2 completed on node 5.
+   16:20:55.79:- model run 1 completed on node 6.
+   17:29:19.28:- model run 24 completed on node 23.
+   18:00:24.51:- model run 26 completed on node 29.
+   18:00:26.18:- model run 27 completed on node 28.
+   18:11:28.02:- model run 37 completed on node 43.
+   18:11:28.27:- model run 52 completed on node 50.
+   18:12:58.31:- model run 9 completed on node 12.
+   18:12:58.54:- model run 18 completed on node 13.
+   18:13:19.29:- model run 72 completed on node 60.
+   18:13:22.51:- model run 54 completed on node 48.
+   18:13:59.11:- model run 11 completed on node 20.
+   18:13:59.76:- model run 12 completed on node 19.
+   18:14:09.23:- model run 39 completed on node 41.
+   18:14:10.39:- model run 55 completed on node 47.
+   18:14:43.75:- model run 43 completed on node 37.
+   18:14:43.83:- model run 42 completed on node 38.
+   18:17:48.91:- model run 15 completed on node 16.
+   18:17:49.94:- model run 16 completed on node 15.
+   18:17:53.52:- model run 21 completed on node 9.
+   18:17:55.23:- model run 34 completed on node 32.
+   18:17:55.62:- model run 19 completed on node 11.
+   18:17:56.09:- model run 35 completed on node 31.
+   18:18:02.03:- model run 40 completed on node 40.
+   18:18:04.41:- model run 41 completed on node 39.
+   18:18:06.74:- model run 38 completed on node 42.
+   18:18:10.35:- model run 25 completed on node 22.
+   18:18:49.37:- model run 74 completed on node 58.
+   18:18:50.91:- model run 73 completed on node 59.
+   18:19:06.87:- model run 53 completed on node 49.
+   18:19:07.51:- model run 50 completed on node 52.
+   18:19:09.65:- model run 22 completed on node 25.
+   18:19:11.98:- model run 23 completed on node 24.
+   18:19:23.84:- model run 46 completed on node 56.
+   18:19:25.40:- model run 51 completed on node 51.
+   18:19:56.04:- model run 20 completed on node 10.
+   18:19:56.91:- model run 10 completed on node 21.
+   18:20:03.64:- model run 7 completed on node 7.
+   18:20:04.45:- model run 8 completed on node 8.
+   18:20:06.32:- model run 14 completed on node 17.
+   18:20:06.65:- model run 13 completed on node 18.
+   18:20:36.07:- model run 70 completed on node 62.
+   18:20:38.07:- model run 69 completed on node 63.
+   18:21:07.21:- model run 30 completed on node 30.
+   18:21:08.35:- model run 59 completed on node 73.
+   18:21:08.69:- model run 28 completed on node 27.
+   18:21:09.72:- model run 61 completed on node 71.
+   18:22:50.30:- model run 29 completed on node 26.
+   18:22:51.19:- model run 17 completed on node 14.
+   18:23:24.09:- model run 31 completed on node 35.
+   18:23:24.18:- model run 44 completed on node 36.
+   18:23:44.06:- model run 32 completed on node 34.
+   18:23:44.79:- model run 33 completed on node 33.
+   18:25:15.46:- model run 57 completed on node 45.
+   18:25:15.93:- model run 56 completed on node 46.
+   18:27:18.92:- model run 104 completed on node 103.
+   18:27:31.94:- model run 84 completed on node 86.
+   18:27:32.07:- model run 36 completed on node 44.
+   18:27:51.68:- model run 45 completed on node 57.
+   18:28:01.48:- model run 97 completed on node 99.
+   18:28:02.05:- model run 107 completed on node 100.
+   18:28:03.35:- model run 83 completed on node 87.
+   18:28:35.76:- model run 186 completed on node 193.
+   18:28:38.42:- model run 95 completed on node 92.
+   18:35:00.19:- model run 185 completed on node 194.
+   18:36:29.00:- model run 58 completed on node 74.
+   18:37:46.52:- model run 195 completed on node 184.
+   18:39:14.97:- model run 187 completed on node 192.
+   18:40:31.33:- model run 183 completed on node 162.
+   18:43:49.96:- model run 67 completed on node 65.
+   18:43:53.95:- model run 68 completed on node 64.
+   18:52:12.43:- model run 71 completed on node 61.
+   18:52:16.76:- model run 144 completed on node 142.
+   18:54:58.13:- model run 141 completed on node 145.
+   18:55:10.49:- model run 89 completed on node 81.
+   18:55:36.99:- model run 122 completed on node 123.
+   18:56:38.86:- model run 184 completed on node 195.
+   18:56:39.20:- model run 79 completed on node 91.
+   18:56:45.69:- model run 197 completed on node 203.
+   18:56:47.19:- model run 165 completed on node 180.
+   18:56:48.22:- model run 180 completed on node 165.
+   18:57:08.91:- model run 88 completed on node 82.
+   18:57:10.52:- model run 49 completed on node 53.
+   18:57:43.90:- model run 110 completed on node 110.
+   18:58:00.40:- model run 191 completed on node 188.
+   18:58:03.41:- model run 127 completed on node 135.
+   18:58:16.00:- model run 196 completed on node 204.
+   18:58:20.47:- model run 166 completed on node 179.
+   18:59:40.49:- model run 76 completed on node 76.
+   18:59:56.01:- model run 167 completed on node 178.
+   19:00:01.28:- model run 132 completed on node 130.
+   19:00:06.68:- model run 64 completed on node 68.
+   19:00:47.89:- model run 62 completed on node 70.
+   19:00:51.38:- model run 171 completed on node 174.
+   19:01:00.13:- model run 155 completed on node 157.
+   19:01:18.54:- model run 126 completed on node 136.
+   19:01:40.71:- model run 163 completed on node 182.
+   19:02:11.84:- model run 181 completed on node 164.
+   19:02:28.86:- model run 131 completed on node 131.
+   19:02:58.25:- model run 142 completed on node 144.
+   19:05:34.59:- model run 193 completed on node 186.
+   19:06:10.86:- model run 178 completed on node 167.
+   19:06:11.20:- model run 201 completed on node 199.
+   19:12:52.40:- model run 140 completed on node 146.
+   19:14:23.02:- model run 182 completed on node 163.
+   19:14:41.56:- model run 192 completed on node 187.
+   19:17:38.37:- model run 190 completed on node 189.
+   19:18:34.03:- model run 189 completed on node 190.
+   19:20:14.20:- model run 170 completed on node 175.
+   19:26:52.94:- model run 188 completed on node 191.
+   19:26:53.99:- model run 150 completed on node 148.
+   19:27:40.59:- model run 120 completed on node 119.
+   19:28:15.72:- model run 172 completed on node 173.
+   19:29:42.83:- model run 128 completed on node 134.
+   19:30:04.09:- model run 173 completed on node 172.
+   19:30:10.38:- model run 124 completed on node 124.
+   19:30:38.17:- model run 77 completed on node 75.
+   19:32:21.89:- model run 96 completed on node 96.
+   19:32:53.59:- model run 152 completed on node 152.
+   19:33:07.46:- model run 148 completed on node 150.
+   19:39:53.43:- model run 90 completed on node 80.
+   19:39:55.39:- model run 145 completed on node 141.
+   19:40:11.10:- model run 101 completed on node 106.
+   19:44:33.78:- model run 87 completed on node 83.
+   19:45:32.51:- model run 138 completed on node 138.
+   19:46:07.52:- model run 48 completed on node 54.
+   19:46:51.40:- model run 177 completed on node 168.
+   19:46:57.52:- model run 112 completed on node 108.
+   19:47:11.47:- model run 175 completed on node 170.
+   19:47:26.65:- model run 82 completed on node 88.
+   19:49:10.79:- model run 47 completed on node 55.
+   19:50:02.24:- model run 121 completed on node 121.
+   19:50:06.53:- model run 86 completed on node 84.
+   19:51:43.18:- model run 103 completed on node 104.
+   19:52:29.59:- model run 161 completed on node 161.
+   19:52:47.45:- model run 119 completed on node 120.
+   19:53:08.78:- model run 116 completed on node 117.
+   19:54:20.80:- model run 109 completed on node 111.
+   19:54:59.62:- model run 102 completed on node 105.
+   19:55:17.98:- model run 169 completed on node 176.
+   20:01:17.99:- model run 94 completed on node 93.
+   20:01:58.66:- model run 92 completed on node 95.
+   20:02:43.90:- model run 78 completed on node 78.
+   20:04:33.06:- model run 63 completed on node 69.
+   20:05:27.83:- model run 91 completed on node 79.
+   20:05:41.72:- model run 99 completed on node 97.
+   20:06:17.40:- model run 151 completed on node 151.
+   20:06:34.62:- model run 105 completed on node 102.
+   20:07:04.27:- model run 108 completed on node 112.
+   20:07:31.12:- model run 174 completed on node 171.
+   20:08:01.90:- model run 98 completed on node 98.
+   20:08:02.43:- model run 146 completed on node 140.
+   20:08:09.87:- model run 143 completed on node 143.
+   20:08:30.88:- model run 85 completed on node 85.
+   20:08:49.44:- model run 158 completed on node 158.
+   20:08:49.86:- model run 164 completed on node 181.
+   20:09:19.96:- model run 65 completed on node 67.
+   20:09:51.58:- model run 100 completed on node 107.
+   20:10:15.48:- model run 156 completed on node 156.
+   20:11:05.43:- model run 75 completed on node 77.
+   20:11:08.71:- model run 168 completed on node 177.
+   20:11:16.02:- model run 202 completed on node 198.
+   20:11:24.27:- model run 115 completed on node 118.
+   20:11:35.82:- model run 133 completed on node 129.
+   20:12:10.45:- model run 198 completed on node 202.
+   20:12:43.01:- model run 106 completed on node 101.
+   20:12:49.74:- model run 139 completed on node 147.
+   20:13:12.99:- model run 118 completed on node 115.
+   20:13:59.16:- model run 154 completed on node 153.
+   20:14:06.45:- model run 149 completed on node 149.
+   20:15:01.40:- model run 66 completed on node 66.
+   20:16:24.69:- model run 81 completed on node 89.
+   20:18:41.89:- model run 117 completed on node 116.
+   20:19:35.34:- model run 147 completed on node 139.
+   20:19:44.85:- model run 80 completed on node 90.
+   20:21:26.83:- model run 153 completed on node 154.
+   20:22:48.34:- model run 93 completed on node 94.
+   20:22:52.81:- model run 159 completed on node 159.
+   20:24:51.27:- model run 134 completed on node 128.
+   20:25:59.53:- model run 129 completed on node 133.
+   20:28:22.35:- model run 199 completed on node 201.
+   20:30:45.73:- model run 130 completed on node 132.
+   20:34:19.81:- model run 194 completed on node 185.
+   20:40:01.99:- model run 200 completed on node 200.
+   20:40:53.89:- model run 176 completed on node 169.
+   20:41:59.10:- model run 179 completed on node 166.
+   20:49:23.58:- model run 162 completed on node 183.
+   20:49:29.64:- model run 157 completed on node 155.
+   20:51:20.76:- model run 160 completed on node 160.
+   20:51:54.64:- model run 136 completed on node 126.
+   20:54:35.28:- model run 113 completed on node 113.
+   20:54:40.60:- model run 111 completed on node 109.
+   20:55:34.45:- model run 60 completed on node 72.
+   20:56:21.80:- model run 137 completed on node 125.
+   20:56:42.37:- model run 135 completed on node 127.
+   20:57:05.79:- model run 114 completed on node 114.
+   20:57:31.83:- model run 125 completed on node 137.
+   21:00:01.95:- model run 123 completed on node 122.
+
+
+ OPTIMISATION ITERATION NO.  1 ----->
+
+ Testing parameter upgrades .....
+   21:00:37.36:- model run 1 commencing on node 208.
+   21:00:37.36:- model run 2 commencing on node 207.
+   21:00:37.36:- model run 3 commencing on node 206.
+   21:00:37.36:- model run 4 commencing on node 205.
+   21:00:37.36:- model run 5 commencing on node 197.
+   21:00:37.36:- model run 6 commencing on node 196.
+   21:00:37.36:- model run 7 commencing on node 1.
+   21:00:37.36:- model run 8 commencing on node 2.
+   21:00:37.36:- model run 9 commencing on node 4.
+   21:00:37.36:- model run 10 commencing on node 3.
+   21:00:37.36:- model run 11 commencing on node 5.
+   21:00:37.36:- model run 12 commencing on node 6.
+   21:00:37.36:- model run 13 commencing on node 23.
+   21:00:37.36:- model run 14 commencing on node 29.
+   21:00:37.36:- model run 15 commencing on node 28.
+   21:00:37.36:- model run 16 commencing on node 50.
+   21:00:37.36:- model run 17 commencing on node 43.
+   21:00:37.36:- model run 18 commencing on node 60.
+   21:00:37.36:- model run 19 commencing on node 13.
+   21:00:37.36:- model run 20 commencing on node 48.
+   21:00:37.36:- model run 21 commencing on node 12.
+   21:00:37.36:- model run 22 commencing on node 47.
+   21:00:37.36:- model run 23 commencing on node 41.
+   21:00:37.36:- model run 24 commencing on node 20.
+   21:00:37.36:- model run 25 commencing on node 19.
+   23:40:00.72:- model run 7 completed on node 1.
+   23:40:29.41:- model run 11 completed on node 5.
+   23:40:46.30:- model run 8 completed on node 2.
+   23:40:51.28:- model run 9 completed on node 4.
+   23:40:52.79:- model run 10 completed on node 3.
+   23:41:42.79:- model run 12 completed on node 6.
+   00:47:56.66:- model run 13 completed on node 23.
+   01:23:30.81:- model run 14 completed on node 29.
+   01:24:04.07:- model run 15 completed on node 28.
+   01:31:46.73:- model run 21 completed on node 12.
+   01:31:49.38:- model run 19 completed on node 13.
+   01:34:12.04:- model run 17 completed on node 43.
+   01:34:39.97:- model run 16 completed on node 50.
+   01:37:48.04:- model run 20 completed on node 48.
+   01:37:48.17:- model run 18 completed on node 60.
+   01:38:10.48:- model run 25 completed on node 19.
+   01:39:25.87:- model run 24 completed on node 20.
+   01:39:26.92:- model run 23 completed on node 41.
+   01:40:40.74:- model run 22 completed on node 47.
+   01:57:37.29:- model run 6 completed on node 196.
+   01:59:05.37:- model run 2 completed on node 207.
+   02:17:52.06:- model run 4 completed on node 205.
+   02:23:46.25:- model run 3 completed on node 206.
+   02:24:53.94:- model run 5 completed on node 197.
+   02:37:50.74:- model run 1 completed on node 208.
+
+
+ OPTIMISATION ITERATION NO.  2 ----->
+
+ Calculating Jacobian matrix: running model 402 times .....
+   02:37:51.88:- model run 1 commencing on node 1.
+   02:37:51.88:- model run 2 commencing on node 5.
+   02:37:51.88:- model run 3 commencing on node 2.
+   02:37:51.88:- model run 4 commencing on node 4.
+   02:37:51.88:- model run 5 commencing on node 3.
+   02:37:51.88:- model run 6 commencing on node 6.
+   02:37:51.88:- model run 7 commencing on node 23.
+   02:37:51.88:- model run 8 commencing on node 29.
+   02:37:51.88:- model run 9 commencing on node 28.
+   02:37:51.88:- model run 10 commencing on node 12.
+   02:37:51.88:- model run 11 commencing on node 13.
+   02:37:51.88:- model run 12 commencing on node 43.
+   02:37:51.88:- model run 13 commencing on node 50.
+   02:37:51.88:- model run 14 commencing on node 37.
+   02:37:51.88:- model run 15 commencing on node 38.
+   02:37:51.88:- model run 16 commencing on node 48.
+   02:37:51.88:- model run 17 commencing on node 60.
+   02:37:51.88:- model run 18 commencing on node 32.
+   02:37:51.88:- model run 19 commencing on node 31.
+   02:37:51.88:- model run 20 commencing on node 40.
+   02:37:51.88:- model run 21 commencing on node 16.
+   02:37:51.88:- model run 22 commencing on node 15.
+   02:37:51.88:- model run 23 commencing on node 39.
+   02:37:51.88:- model run 24 commencing on node 9.
+   02:37:51.88:- model run 25 commencing on node 42.
+   02:37:51.88:- model run 26 commencing on node 11.
+   02:37:51.88:- model run 27 commencing on node 19.
+   02:37:51.88:- model run 28 commencing on node 22.
+   02:37:51.88:- model run 29 commencing on node 58.
+   02:37:51.88:- model run 30 commencing on node 59.
+   02:37:51.88:- model run 31 commencing on node 49.
+   02:37:51.88:- model run 32 commencing on node 52.
+   02:37:51.88:- model run 33 commencing on node 56.
+   02:37:51.88:- model run 34 commencing on node 51.
+   02:37:51.88:- model run 35 commencing on node 25.
+   02:37:51.88:- model run 36 commencing on node 24.
+   02:37:51.88:- model run 37 commencing on node 20.
+   02:37:51.88:- model run 38 commencing on node 41.
+   02:37:51.88:- model run 39 commencing on node 10.
+   02:37:51.88:- model run 40 commencing on node 21.
+   02:37:51.88:- model run 41 commencing on node 17.
+   02:37:51.88:- model run 42 commencing on node 18.
+   02:37:51.88:- model run 43 commencing on node 62.
+   02:37:51.88:- model run 44 commencing on node 63.
+   02:37:51.88:- model run 45 commencing on node 8.
+   02:37:51.88:- model run 46 commencing on node 7.
+   02:37:51.88:- model run 47 commencing on node 47.
+   02:37:51.88:- model run 48 commencing on node 73.
+   02:37:51.88:- model run 49 commencing on node 71.
+   02:37:51.88:- model run 50 commencing on node 30.
+   02:37:51.88:- model run 51 commencing on node 27.
+   02:37:51.88:- model run 52 commencing on node 26.
+   02:37:51.88:- model run 53 commencing on node 14.
+   02:37:51.88:- model run 54 commencing on node 36.
+   02:37:51.88:- model run 55 commencing on node 35.
+   02:37:51.88:- model run 56 commencing on node 34.
+   02:37:51.88:- model run 57 commencing on node 33.
+   02:37:51.88:- model run 58 commencing on node 45.
+   02:37:51.88:- model run 59 commencing on node 46.
+   02:37:51.88:- model run 60 commencing on node 103.
+   02:37:51.88:- model run 61 commencing on node 193.
+   02:37:51.88:- model run 62 commencing on node 86.
+   02:37:51.88:- model run 63 commencing on node 100.
+   02:37:51.88:- model run 64 commencing on node 44.
+   02:37:51.88:- model run 65 commencing on node 99.
+   02:37:51.88:- model run 66 commencing on node 87.
+   02:37:51.88:- model run 67 commencing on node 57.
+   02:37:51.88:- model run 68 commencing on node 92.
+   02:37:51.88:- model run 69 commencing on node 194.
+   02:37:51.88:- model run 70 commencing on node 74.
+   02:37:51.88:- model run 71 commencing on node 184.
+   02:37:51.88:- model run 72 commencing on node 196.
+   02:37:51.88:- model run 73 commencing on node 192.
+   02:37:51.88:- model run 74 commencing on node 162.
+   02:37:51.88:- model run 75 commencing on node 207.
+   02:37:51.88:- model run 76 commencing on node 65.
+   02:37:51.88:- model run 77 commencing on node 64.
+   02:37:51.89:- model run 78 commencing on node 142.
+   02:37:51.89:- model run 79 commencing on node 61.
+   02:37:51.89:- model run 80 commencing on node 145.
+   02:37:51.89:- model run 81 commencing on node 81.
+   02:37:51.89:- model run 82 commencing on node 123.
+   02:37:51.89:- model run 83 commencing on node 195.
+   02:37:51.89:- model run 84 commencing on node 203.
+   02:37:51.89:- model run 85 commencing on node 180.
+   02:37:51.89:- model run 86 commencing on node 165.
+   02:37:51.89:- model run 87 commencing on node 91.
+   02:37:51.89:- model run 88 commencing on node 188.
+   02:37:51.89:- model run 89 commencing on node 204.
+   02:37:51.89:- model run 90 commencing on node 82.
+   02:37:51.89:- model run 91 commencing on node 179.
+   02:37:51.89:- model run 92 commencing on node 53.
+   02:37:51.89:- model run 93 commencing on node 110.
+   02:37:51.89:- model run 94 commencing on node 135.
+   02:37:51.89:- model run 95 commencing on node 205.
+   02:37:51.89:- model run 96 commencing on node 178.
+   02:37:51.89:- model run 97 commencing on node 130.
+   02:37:51.89:- model run 98 commencing on node 76.
+   02:37:51.89:- model run 99 commencing on node 174.
+   02:37:51.89:- model run 100 commencing on node 68.
+   02:37:51.89:- model run 101 commencing on node 157.
+   02:37:51.89:- model run 102 commencing on node 182.
+   02:37:51.89:- model run 103 commencing on node 136.
+   02:37:51.89:- model run 104 commencing on node 70.
+   02:37:51.89:- model run 105 commencing on node 164.
+   02:37:51.89:- model run 106 commencing on node 131.
+   02:37:51.89:- model run 107 commencing on node 144.
+   02:37:51.89:- model run 108 commencing on node 206.
+   02:37:51.89:- model run 109 commencing on node 186.
+   02:37:51.89:- model run 110 commencing on node 199.
+   02:37:51.89:- model run 111 commencing on node 167.
+   02:37:51.89:- model run 112 commencing on node 197.
+   02:37:51.89:- model run 113 commencing on node 146.
+   02:37:51.89:- model run 114 commencing on node 163.
+   02:37:51.89:- model run 115 commencing on node 187.
+   02:37:51.89:- model run 116 commencing on node 189.
+   02:37:51.89:- model run 117 commencing on node 190.
+   02:37:51.89:- model run 118 commencing on node 208.
+   02:37:51.89:- model run 119 commencing on node 175.
+   02:37:51.89:- model run 120 commencing on node 191.
+   02:37:51.89:- model run 121 commencing on node 148.
+   02:37:51.89:- model run 122 commencing on node 173.
+   02:37:51.89:- model run 123 commencing on node 119.
+   02:37:51.89:- model run 124 commencing on node 172.
+   02:37:51.89:- model run 125 commencing on node 134.
+   02:37:51.89:- model run 126 commencing on node 124.
+   02:37:51.89:- model run 127 commencing on node 75.
+   02:37:51.89:- model run 128 commencing on node 152.
+   02:37:51.89:- model run 129 commencing on node 96.
+   02:37:51.89:- model run 130 commencing on node 150.
+   02:37:51.89:- model run 131 commencing on node 141.
+   02:37:51.89:- model run 132 commencing on node 80.
+   02:37:51.89:- model run 133 commencing on node 106.
+   02:37:51.89:- model run 134 commencing on node 83.
+   02:37:51.89:- model run 135 commencing on node 138.
+   02:37:51.89:- model run 136 commencing on node 168.
+   02:37:51.89:- model run 137 commencing on node 170.
+   02:37:51.89:- model run 138 commencing on node 54.
+   02:37:51.89:- model run 139 commencing on node 108.
+   02:37:51.89:- model run 140 commencing on node 88.
+   02:37:51.89:- model run 141 commencing on node 55.
+   02:37:51.89:- model run 142 commencing on node 121.
+   02:37:51.89:- model run 143 commencing on node 84.
+   02:37:51.91:- model run 144 commencing on node 104.
+   02:37:51.91:- model run 145 commencing on node 161.
+   02:37:51.91:- model run 146 commencing on node 120.
+   02:37:51.91:- model run 147 commencing on node 117.
+   02:37:51.91:- model run 148 commencing on node 111.
+   02:37:51.91:- model run 149 commencing on node 176.
+   02:37:51.91:- model run 150 commencing on node 105.
+   02:37:51.91:- model run 151 commencing on node 93.
+   02:37:51.91:- model run 152 commencing on node 95.
+   02:37:51.91:- model run 153 commencing on node 78.
+   02:37:51.91:- model run 154 commencing on node 69.
+   02:37:51.91:- model run 155 commencing on node 79.
+   02:37:51.91:- model run 156 commencing on node 97.
+   02:37:51.91:- model run 157 commencing on node 151.
+   02:37:51.91:- model run 158 commencing on node 102.
+   02:37:51.91:- model run 159 commencing on node 171.
+   02:37:51.91:- model run 160 commencing on node 112.
+   02:37:51.91:- model run 161 commencing on node 140.
+   02:37:51.91:- model run 162 commencing on node 143.
+   02:37:51.91:- model run 163 commencing on node 181.
+   02:37:51.91:- model run 164 commencing on node 98.
+   02:37:51.91:- model run 165 commencing on node 158.
+   02:37:51.91:- model run 166 commencing on node 85.
+   02:37:51.91:- model run 167 commencing on node 67.
+   02:37:51.91:- model run 168 commencing on node 156.
+   02:37:51.91:- model run 169 commencing on node 107.
+   02:37:51.91:- model run 170 commencing on node 198.
+   02:37:51.91:- model run 171 commencing on node 177.
+   02:37:51.91:- model run 172 commencing on node 202.
+   02:37:51.91:- model run 173 commencing on node 118.
+   02:37:51.91:- model run 174 commencing on node 129.
+   02:37:51.91:- model run 175 commencing on node 77.
+   02:37:51.91:- model run 176 commencing on node 147.
+   02:37:51.91:- model run 177 commencing on node 101.
+   02:37:51.91:- model run 178 commencing on node 115.
+   02:37:51.91:- model run 179 commencing on node 153.
+   02:37:51.91:- model run 180 commencing on node 149.
+   02:37:51.91:- model run 181 commencing on node 66.
+   02:37:51.91:- model run 182 commencing on node 89.
+   02:37:51.91:- model run 183 commencing on node 116.
+   02:37:51.91:- model run 184 commencing on node 139.
+   02:37:51.91:- model run 185 commencing on node 90.
+   02:37:51.91:- model run 186 commencing on node 154.
+   02:37:51.91:- model run 187 commencing on node 159.
+   02:37:51.91:- model run 188 commencing on node 94.
+   02:37:51.91:- model run 189 commencing on node 128.
+   02:37:51.91:- model run 190 commencing on node 133.
+   02:37:51.91:- model run 191 commencing on node 201.
+   02:37:51.92:- model run 192 commencing on node 132.
+   02:37:51.92:- model run 193 commencing on node 185.
+   02:37:51.92:- model run 194 commencing on node 200.
+   02:37:51.92:- model run 195 commencing on node 169.
+   02:37:51.92:- model run 196 commencing on node 166.
+   02:37:51.92:- model run 197 commencing on node 183.
+   02:37:51.92:- model run 198 commencing on node 155.
+   02:37:51.92:- model run 199 commencing on node 160.
+   02:37:51.92:- model run 200 commencing on node 126.
+   02:37:51.92:- model run 201 commencing on node 113.
+   02:37:51.92:- model run 202 commencing on node 109.
+   02:37:51.92:- model run 203 commencing on node 72.
+   02:37:51.92:- model run 204 commencing on node 125.
+   02:37:51.92:- model run 205 commencing on node 127.
+   02:37:51.92:- model run 206 commencing on node 114.
+   02:37:51.92:- model run 207 commencing on node 137.
+   02:37:51.92:- model run 208 commencing on node 122.
+   05:19:05.11:- model run 4 completed on node 4.
+   05:19:05.11:- model run 209 commencing on node 4.
+   05:19:06.65:- model run 5 completed on node 3.
+   05:19:06.65:- model run 210 commencing on node 3.
+   05:19:08.18:- model run 6 completed on node 6.
+   05:19:08.18:- model run 211 commencing on node 6.
+   05:19:08.20:- model run 2 completed on node 5.
+   05:19:08.20:- model run 212 commencing on node 5.
+   05:19:11.64:- model run 1 completed on node 1.
+   05:19:11.64:- model run 213 commencing on node 1.
+   05:19:12.38:- model run 3 completed on node 2.
+   05:19:12.38:- model run 214 commencing on node 2.
+   06:26:27.05:- model run 7 completed on node 23.
+   06:26:27.05:- model run 215 commencing on node 23.
+   06:58:04.67:- model run 9 completed on node 28.
+   06:58:04.67:- model run 216 commencing on node 28.
+   06:58:06.34:- model run 8 completed on node 29.
+   06:58:06.34:- model run 217 commencing on node 29.
+   07:10:28.44:- model run 10 completed on node 12.
+   07:10:28.46:- model run 218 commencing on node 12.
+   07:10:28.66:- model run 11 completed on node 13.
+   07:10:28.66:- model run 219 commencing on node 13.
+   07:11:28.58:- model run 13 completed on node 50.
+   07:11:28.58:- model run 220 commencing on node 50.
+   07:11:29.78:- model run 12 completed on node 43.
+   07:11:29.78:- model run 221 commencing on node 43.
+   07:11:35.42:- model run 15 completed on node 38.
+   07:11:35.42:- model run 222 commencing on node 38.
+   07:11:35.63:- model run 14 completed on node 37.
+   07:11:35.63:- model run 223 commencing on node 37.
+   07:12:41.95:- model run 25 completed on node 42.
+   07:12:41.95:- model run 224 commencing on node 42.
+   07:12:42.11:- model run 28 completed on node 22.
+   07:12:42.11:- model run 225 commencing on node 22.
+   07:13:00.95:- model run 18 completed on node 32.
+   07:13:00.95:- model run 226 commencing on node 32.
+   07:13:02.06:- model run 19 completed on node 31.
+   07:13:02.06:- model run 227 commencing on node 31.
+   07:14:20.58:- model run 17 completed on node 60.
+   07:14:20.58:- model run 228 commencing on node 60.
+   07:14:23.32:- model run 16 completed on node 48.
+   07:14:23.32:- model run 229 commencing on node 48.
+   07:14:28.28:- model run 61 completed on node 193.
+   07:14:28.28:- model run 230 commencing on node 193.
+   07:14:32.35:- model run 20 completed on node 40.
+   07:14:32.35:- model run 231 commencing on node 40.
+   07:14:33.85:- model run 23 completed on node 39.
+   07:14:33.85:- model run 232 commencing on node 39.
+   07:14:34.97:- model run 35 completed on node 25.
+   07:14:34.97:- model run 233 commencing on node 25.
+   07:14:36.42:- model run 36 completed on node 24.
+   07:14:36.42:- model run 234 commencing on node 24.
+   07:14:48.51:- model run 26 completed on node 11.
+   07:14:48.51:- model run 235 commencing on node 11.
+   07:14:48.67:- model run 24 completed on node 9.
+   07:14:48.67:- model run 236 commencing on node 9.
+   07:15:38.14:- model run 51 completed on node 27.
+   07:15:38.15:- model run 237 commencing on node 27.
+   07:15:39.34:- model run 50 completed on node 30.
+   07:15:39.34:- model run 238 commencing on node 30.
+   07:16:01.48:- model run 43 completed on node 62.
+   07:16:01.48:- model run 239 commencing on node 62.
+   07:16:05.11:- model run 44 completed on node 63.
+   07:16:05.11:- model run 240 commencing on node 63.
+   07:16:09.99:- model run 37 completed on node 20.
+   07:16:09.99:- model run 241 commencing on node 20.
+   07:16:13.29:- model run 33 completed on node 56.
+   07:16:13.29:- model run 242 commencing on node 56.
+   07:16:13.99:- model run 34 completed on node 51.
+   07:16:13.99:- model run 243 commencing on node 51.
+   07:16:21.29:- model run 27 completed on node 19.
+   07:16:21.29:- model run 244 commencing on node 19.
+   07:16:33.16:- model run 32 completed on node 52.
+   07:16:33.16:- model run 245 commencing on node 52.
+   07:16:33.96:- model run 31 completed on node 49.
+   07:16:33.96:- model run 246 commencing on node 49.
+   07:16:34.94:- model run 22 completed on node 15.
+   07:16:34.94:- model run 247 commencing on node 15.
+   07:16:35.11:- model run 21 completed on node 16.
+   07:16:35.11:- model run 248 commencing on node 16.
+   07:16:47.72:- model run 41 completed on node 17.
+   07:16:47.72:- model run 249 commencing on node 17.
+   07:16:49.21:- model run 48 completed on node 73.
+   07:16:49.21:- model run 250 commencing on node 73.
+   07:16:50.38:- model run 42 completed on node 18.
+   07:16:50.38:- model run 251 commencing on node 18.
+   07:16:55.10:- model run 49 completed on node 71.
+   07:16:55.10:- model run 252 commencing on node 71.
+   07:17:03.29:- model run 30 completed on node 59.
+   07:17:03.29:- model run 253 commencing on node 59.
+   07:17:04.86:- model run 29 completed on node 58.
+   07:17:04.86:- model run 254 commencing on node 58.
+   07:18:11.60:- model run 39 completed on node 10.
+   07:18:11.60:- model run 255 commencing on node 10.
+   07:18:16.92:- model run 69 completed on node 194.
+   07:18:16.93:- model run 256 commencing on node 194.
+   07:18:19.51:- model run 40 completed on node 21.
+   07:18:19.51:- model run 257 commencing on node 21.
+   07:18:35.59:- model run 55 completed on node 35.
+   07:18:35.59:- model run 258 commencing on node 35.
+   07:18:36.28:- model run 54 completed on node 36.
+   07:18:36.28:- model run 259 commencing on node 36.
+   07:18:36.70:- model run 47 completed on node 47.
+   07:18:36.70:- model run 260 commencing on node 47.
+   07:18:43.74:- model run 38 completed on node 41.
+   07:18:43.74:- model run 261 commencing on node 41.
+   07:19:08.54:- model run 52 completed on node 26.
+   07:19:08.54:- model run 262 commencing on node 26.
+   07:19:09.71:- model run 53 completed on node 14.
+   07:19:09.71:- model run 263 commencing on node 14.
+   07:22:18.30:- model run 57 completed on node 33.
+   07:22:18.30:- model run 264 commencing on node 33.
+   07:22:20.06:- model run 56 completed on node 34.
+   07:22:20.06:- model run 265 commencing on node 34.
+   07:23:39.12:- model run 66 completed on node 87.
+   07:23:39.12:- model run 266 commencing on node 87.
+   07:23:45.30:- model run 59 completed on node 46.
+   07:23:45.30:- model run 267 commencing on node 46.
+   07:23:48.52:- model run 58 completed on node 45.
+   07:23:48.52:- model run 268 commencing on node 45.
+   07:23:54.85:- model run 62 completed on node 86.
+   07:23:54.85:- model run 269 commencing on node 86.
+   07:24:04.13:- model run 64 completed on node 44.
+   07:24:04.13:- model run 270 commencing on node 44.
+   07:24:08.52:- model run 60 completed on node 103.
+   07:24:08.52:- model run 271 commencing on node 103.
+   07:24:46.14:- model run 65 completed on node 99.
+   07:24:46.14:- model run 272 commencing on node 99.
+   07:25:01.52:- model run 68 completed on node 92.
+   07:25:01.52:- model run 273 commencing on node 92.
+   07:25:08.40:- model run 67 completed on node 57.
+   07:25:08.40:- model run 274 commencing on node 57.
+   07:25:50.67:- model run 63 completed on node 100.
+   07:25:50.67:- model run 275 commencing on node 100.
+   07:31:28.32:- model run 120 completed on node 191.
+   07:31:28.32:- model run 276 commencing on node 191.
+   07:33:37.34:- model run 71 completed on node 184.
+   07:33:37.34:- model run 277 commencing on node 184.
+   07:35:14.83:- model run 73 completed on node 192.
+   07:35:14.83:- model run 278 commencing on node 192.
+   07:35:37.28:- model run 70 completed on node 74.
+   07:35:37.28:- model run 279 commencing on node 74.
+   07:41:37.17:- model run 76 completed on node 65.
+   07:41:37.17:- model run 280 commencing on node 65.
+   07:42:00.17:- model run 77 completed on node 64.
+   07:42:00.17:- model run 281 commencing on node 64.
+   07:42:22.00:- model run 46 completed on node 7.
+   07:42:22.00:- model run 282 commencing on node 7.
+   07:42:28.55:- model run 45 completed on node 8.
+   07:42:28.55:- model run 283 commencing on node 8.
+   07:53:00.95:- model run 112 completed on node 197.
+   07:53:00.95:- model run 284 commencing on node 197.
+   07:53:02.29:- model run 111 completed on node 167.
+   07:53:02.29:- model run 285 commencing on node 167.
+   07:53:26.11:- model run 144 completed on node 104.
+   07:53:26.11:- model run 286 commencing on node 104.
+   07:53:32.26:- model run 154 completed on node 69.
+   07:53:32.26:- model run 287 commencing on node 69.
+   07:54:17.51:- model run 177 completed on node 101.
+   07:54:17.51:- model run 288 commencing on node 101.
+   07:54:44.50:- model run 79 completed on node 61.
+   07:54:44.50:- model run 289 commencing on node 61.
+   07:54:46.06:- model run 82 completed on node 123.
+   07:54:46.06:- model run 290 commencing on node 123.
+   07:54:58.59:- model run 130 completed on node 150.
+   07:54:58.59:- model run 291 commencing on node 150.
+   07:55:07.06:- model run 187 completed on node 159.
+   07:55:07.06:- model run 292 commencing on node 159.
+   07:55:07.20:- model run 145 completed on node 161.
+   07:55:07.20:- model run 293 commencing on node 161.
+   07:55:12.74:- model run 140 completed on node 88.
+   07:55:12.74:- model run 294 commencing on node 88.
+   07:55:39.23:- model run 139 completed on node 108.
+   07:55:39.23:- model run 295 commencing on node 108.
+   07:55:56.07:- model run 129 completed on node 96.
+   07:55:56.07:- model run 296 commencing on node 96.
+   07:56:30.64:- model run 185 completed on node 90.
+   07:56:30.64:- model run 297 commencing on node 90.
+   07:56:33.16:- model run 190 completed on node 133.
+   07:56:33.16:- model run 298 commencing on node 133.
+   07:56:44.89:- model run 186 completed on node 154.
+   07:56:44.89:- model run 299 commencing on node 154.
+   07:56:52.36:- model run 106 completed on node 131.
+   07:56:52.36:- model run 300 commencing on node 131.
+   07:57:16.85:- model run 196 completed on node 166.
+   07:57:16.85:- model run 301 commencing on node 166.
+   07:57:56.76:- model run 195 completed on node 169.
+   07:57:56.76:- model run 302 commencing on node 169.
+   07:57:58.08:- model run 167 completed on node 67.
+   07:57:58.08:- model run 303 commencing on node 67.
+   07:58:04.65:- model run 183 completed on node 116.
+   07:58:04.65:- model run 304 commencing on node 116.
+   07:58:32.81:- model run 189 completed on node 128.
+   07:58:32.81:- model run 305 commencing on node 128.
+   07:58:47.47:- model run 74 completed on node 162.
+   07:58:47.47:- model run 306 commencing on node 162.
+   07:58:51.53:- model run 178 completed on node 115.
+   07:58:51.53:- model run 307 commencing on node 115.
+   07:59:50.86:- model run 210 completed on node 3.
+   07:59:50.86:- model run 308 commencing on node 3.
+   07:59:52.01:- model run 212 completed on node 5.
+   07:59:52.01:- model run 309 commencing on node 5.
+   07:59:59.44:- model run 214 completed on node 2.
+   07:59:59.44:- model run 310 commencing on node 2.
+   08:00:01.36:- model run 211 completed on node 6.
+   08:00:01.36:- model run 311 commencing on node 6.
+   08:00:03.09:- model run 209 completed on node 4.
+   08:00:03.09:- model run 312 commencing on node 4.
+   08:00:10.53:- model run 213 completed on node 1.
+   08:00:10.53:- model run 313 commencing on node 1.
+   08:00:39.83:- model run 197 completed on node 183.
+   08:00:39.83:- model run 314 commencing on node 183.
+   08:01:58.89:- model run 131 completed on node 141.
+   08:01:58.89:- model run 315 commencing on node 141.
+   08:02:06.42:- model run 101 completed on node 157.
+   08:02:06.42:- model run 316 commencing on node 157.
+   08:02:16.70:- model run 150 completed on node 105.
+   08:02:16.70:- model run 317 commencing on node 105.
+   08:02:28.12:- model run 180 completed on node 149.
+   08:02:28.12:- model run 318 commencing on node 149.
+   08:02:29.07:- model run 165 completed on node 158.
+   08:02:29.07:- model run 319 commencing on node 158.
+   08:02:29.93:- model run 168 completed on node 156.
+   08:02:29.95:- model run 320 commencing on node 156.
+   08:02:33.94:- model run 171 completed on node 177.
+   08:02:33.94:- model run 321 commencing on node 177.
+   08:02:36.20:- model run 156 completed on node 97.
+   08:02:36.20:- model run 322 commencing on node 97.
+   08:02:39.40:- model run 133 completed on node 106.
+   08:02:39.40:- model run 323 commencing on node 106.
+   08:02:49.43:- model run 123 completed on node 119.
+   08:02:49.43:- model run 324 commencing on node 119.
+   08:02:55.03:- model run 164 completed on node 98.
+   08:02:55.03:- model run 325 commencing on node 98.
+   08:03:13.21:- model run 98 completed on node 76.
+   08:03:13.21:- model run 326 commencing on node 76.
+   08:03:18.23:- model run 121 completed on node 148.
+   08:03:18.23:- model run 327 commencing on node 148.
+   08:03:37.29:- model run 105 completed on node 164.
+   08:03:37.29:- model run 328 commencing on node 164.
+   08:03:38.87:- model run 142 completed on node 121.
+   08:03:38.87:- model run 329 commencing on node 121.
+   08:03:40.26:- model run 124 completed on node 172.
+   08:03:40.26:- model run 330 commencing on node 172.
+   08:03:40.77:- model run 174 completed on node 129.
+   08:03:40.77:- model run 331 commencing on node 129.
+   08:03:44.61:- model run 107 completed on node 144.
+   08:03:44.61:- model run 332 commencing on node 144.
+   08:03:44.94:- model run 161 completed on node 140.
+   08:03:44.94:- model run 333 commencing on node 140.
+   08:03:50.26:- model run 93 completed on node 110.
+   08:03:50.26:- model run 334 commencing on node 110.
+   08:03:58.29:- model run 125 completed on node 134.
+   08:03:58.29:- model run 335 commencing on node 134.
+   08:04:02.14:- model run 122 completed on node 173.
+   08:04:02.14:- model run 336 commencing on node 173.
+   08:04:03.36:- model run 163 completed on node 181.
+   08:04:03.36:- model run 337 commencing on node 181.
+   08:04:05.42:- model run 102 completed on node 182.
+   08:04:05.42:- model run 338 commencing on node 182.
+   08:04:13.10:- model run 136 completed on node 168.
+   08:04:13.10:- model run 339 commencing on node 168.
+   08:04:19.42:- model run 96 completed on node 178.
+   08:04:19.42:- model run 340 commencing on node 178.
+   08:04:23.95:- model run 157 completed on node 151.
+   08:04:23.95:- model run 341 commencing on node 151.
+   08:04:45.29:- model run 92 completed on node 53.
+   08:04:45.29:- model run 342 commencing on node 53.
+   08:04:46.36:- model run 137 completed on node 170.
+   08:04:46.36:- model run 343 commencing on node 170.
+   08:04:49.10:- model run 134 completed on node 83.
+   08:04:49.10:- model run 344 commencing on node 83.
+   08:04:49.12:- model run 141 completed on node 55.
+   08:04:49.12:- model run 345 commencing on node 55.
+   08:04:58.60:- model run 179 completed on node 153.
+   08:04:58.60:- model run 346 commencing on node 153.
+   08:04:59.63:- model run 166 completed on node 85.
+   08:04:59.63:- model run 347 commencing on node 85.
+   08:05:09.43:- model run 99 completed on node 174.
+   08:05:09.43:- model run 348 commencing on node 174.
+   08:05:14.92:- model run 132 completed on node 80.
+   08:05:14.92:- model run 349 commencing on node 80.
+   08:05:32.83:- model run 97 completed on node 130.
+   08:05:32.83:- model run 350 commencing on node 130.
+   08:05:38.93:- model run 128 completed on node 152.
+   08:05:38.93:- model run 351 commencing on node 152.
+   08:05:41.33:- model run 138 completed on node 54.
+   08:05:41.33:- model run 352 commencing on node 54.
+   08:05:48.73:- model run 143 completed on node 84.
+   08:05:48.73:- model run 353 commencing on node 84.
+   08:06:25.50:- model run 159 completed on node 171.
+   08:06:25.50:- model run 354 commencing on node 171.
+   08:06:34.40:- model run 158 completed on node 102.
+   08:06:34.40:- model run 355 commencing on node 102.
+   08:06:59.83:- model run 127 completed on node 75.
+   08:06:59.83:- model run 356 commencing on node 75.
+   08:07:57.80:- model run 126 completed on node 124.
+   08:07:57.80:- model run 357 commencing on node 124.
+   08:08:15.57:- model run 169 completed on node 107.
+   08:08:15.57:- model run 358 commencing on node 107.
+   08:09:09.84:- model run 191 completed on node 201.
+   08:09:09.84:- model run 359 commencing on node 201.
+   08:09:60.00:- model run 175 completed on node 77.
+   08:09:60.00:- model run 360 commencing on node 77.
+   08:10:39.98:- model run 181 completed on node 66.
+   08:10:39.98:- model run 361 commencing on node 66.
+   08:11:28.64:- model run 114 completed on node 163.
+   08:11:28.64:- model run 362 commencing on node 163.
+   08:11:54.25:- model run 155 completed on node 79.
+   08:11:54.25:- model run 363 commencing on node 79.
+   08:11:56.74:- model run 208 completed on node 122.
+   08:11:56.74:- model run 364 commencing on node 122.
+   08:12:16.06:- model run 104 completed on node 70.
+   08:12:16.06:- model run 365 commencing on node 70.
+   08:12:43.13:- model run 95 completed on node 205.
+   08:12:43.13:- model run 366 commencing on node 205.
+   08:12:52.16:- model run 176 completed on node 147.
+   08:12:52.16:- model run 367 commencing on node 147.
+   08:14:07.45:- model run 188 completed on node 94.
+   08:14:07.45:- model run 368 commencing on node 94.
+   08:14:09.16:- model run 119 completed on node 175.
+   08:14:09.16:- model run 369 commencing on node 175.
+   08:14:22.11:- model run 81 completed on node 81.
+   08:14:22.11:- model run 370 commencing on node 81.
+   08:14:38.49:- model run 194 completed on node 200.
+   08:14:38.49:- model run 371 commencing on node 200.
+   08:14:43.55:- model run 173 completed on node 118.
+   08:14:43.55:- model run 372 commencing on node 118.
+   08:15:12.36:- model run 115 completed on node 187.
+   08:15:12.36:- model run 373 commencing on node 187.
+   08:15:42.49:- model run 103 completed on node 136.
+   08:15:42.49:- model run 374 commencing on node 136.
+   08:15:53.86:- model run 86 completed on node 165.
+   08:15:53.86:- model run 375 commencing on node 165.
+   08:16:14.68:- model run 193 completed on node 185.
+   08:16:14.68:- model run 376 commencing on node 185.
+   08:16:32.75:- model run 72 completed on node 196.
+   08:16:32.76:- model run 377 commencing on node 196.
+   08:16:36.26:- model run 88 completed on node 188.
+   08:16:36.26:- model run 378 commencing on node 188.
+   08:16:40.22:- model run 206 completed on node 114.
+   08:16:40.22:- model run 379 commencing on node 114.
+   08:18:01.86:- model run 83 completed on node 195.
+   08:18:01.86:- model run 380 commencing on node 195.
+   08:19:04.23:- model run 89 completed on node 204.
+   08:19:04.23:- model run 381 commencing on node 204.
+   08:19:32.78:- model run 118 completed on node 208.
+   08:19:32.78:- model run 382 commencing on node 208.
+   08:19:59.72:- model run 87 completed on node 91.
+   08:19:59.72:- model run 383 commencing on node 91.
+   08:20:31.23:- model run 108 completed on node 206.
+   08:20:31.23:- model run 384 commencing on node 206.
+   08:20:43.21:- model run 116 completed on node 189.
+   08:20:43.21:- model run 385 commencing on node 189.
+   08:21:05.53:- model run 75 completed on node 207.
+   08:21:05.53:- model run 386 commencing on node 207.
+   08:21:13.94:- model run 84 completed on node 203.
+   08:21:13.94:- model run 387 commencing on node 203.
+   08:23:53.52:- model run 78 completed on node 142.
+   08:23:53.52:- model run 388 commencing on node 142.
+   08:25:16.96:- model run 94 completed on node 135.
+   08:25:16.96:- model run 389 commencing on node 135.
+   08:25:36.95:- model run 162 completed on node 143.
+   08:25:36.95:- model run 390 commencing on node 143.
+   08:26:14.70:- model run 100 completed on node 68.
+   08:26:14.70:- model run 391 commencing on node 68.
+   08:27:09.19:- model run 152 completed on node 95.
+   08:27:09.19:- model run 392 commencing on node 95.
+   08:28:03.20:- model run 153 completed on node 78.
+   08:28:03.20:- model run 393 commencing on node 78.
+   08:28:28.99:- model run 160 completed on node 112.
+   08:28:28.99:- model run 394 commencing on node 112.
+   08:28:35.58:- model run 192 completed on node 132.
+   08:28:35.58:- model run 395 commencing on node 132.
+   08:30:53.30:- model run 151 completed on node 93.
+   08:30:53.30:- model run 396 commencing on node 93.
+   08:32:38.23:- model run 85 completed on node 180.
+   08:32:38.23:- model run 397 commencing on node 180.
+   08:34:12.27:- model run 91 completed on node 179.
+   08:34:12.27:- model run 398 commencing on node 179.
+   08:34:52.52:- model run 148 completed on node 111.
+   08:34:52.52:- model run 399 commencing on node 111.
+   08:40:14.94:- model run 90 completed on node 82.
+   08:40:14.94:- model run 400 commencing on node 82.
+   08:40:29.87:- model run 146 completed on node 120.
+   08:40:29.87:- model run 401 commencing on node 120.
+   08:41:58.57:- model run 135 completed on node 138.
+   08:41:58.57:- model run 402 commencing on node 138.
+   08:42:01.79:- model run 147 completed on node 117.
+   08:42:32.24:- model run 184 completed on node 139.
+   08:45:09.41:- model run 207 completed on node 137.
+   08:49:46.74:- model run 149 completed on node 176.
+   08:53:57.06:- model run 199 completed on node 160.
+   08:55:41.58:- model run 80 completed on node 145.
+   08:55:46.87:- model run 182 completed on node 89.
+   08:59:55.46:- model run 172 completed on node 202.
+   09:04:13.51:- model run 198 completed on node 155.
+   09:07:28.27:- model run 110 completed on node 199.
+   09:10:47.37:- model run 117 completed on node 190.
+   09:11:07.48:- model run 109 completed on node 186.
+   09:14:23.72:- model run 113 completed on node 146.
+   09:15:46.26:- model run 170 completed on node 198.
+   09:44:41.29:- model run 205 completed on node 127.
+   09:49:36.58:- model run 203 completed on node 72.
+   09:50:46.87:- model run 200 completed on node 126.
+   09:53:05.21:- model run 201 completed on node 113.
+   09:54:30.30:- model run 204 completed on node 125.
+   09:54:47.04:- model run 202 completed on node 109.
+   10:14:56.65:- model run 215 completed on node 23.
+   10:40:48.90:- model run 310 completed on node 2.
+   10:40:48.90:- model run 308 completed on node 3.
+   10:40:52.53:- model run 312 completed on node 4.
+   10:40:59.28:- model run 313 completed on node 1.
+   10:41:09.12:- model run 309 completed on node 5.
+   10:41:09.38:- model run 311 completed on node 6.
+   11:19:54.05:- model run 216 completed on node 28.
+   11:20:00.13:- model run 217 completed on node 29.
+   11:41:23.84:- model run 224 completed on node 42.
+   11:41:24.36:- model run 225 completed on node 22.
+   11:43:54.40:- model run 220 completed on node 50.
+   11:43:57.64:- model run 221 completed on node 43.
+   11:44:58.14:- model run 219 completed on node 13.
+   11:44:58.70:- model run 218 completed on node 12.
+   11:45:37.41:- model run 223 completed on node 37.
+   11:45:38.30:- model run 222 completed on node 38.
+   11:49:59.30:- model run 228 completed on node 60.
+   11:50:00.58:- model run 229 completed on node 48.
+   11:51:10.63:- model run 242 completed on node 56.
+   11:51:11.39:- model run 243 completed on node 51.
+   11:51:47.01:- model run 226 completed on node 32.
+   11:51:49.63:- model run 237 completed on node 27.
+   11:51:50.89:- model run 238 completed on node 30.
+   11:52:00.89:- model run 227 completed on node 31.
+   11:52:28.02:- model run 256 completed on node 194.
+   11:54:04.46:- model run 232 completed on node 39.
+   11:54:05.51:- model run 231 completed on node 40.
+   11:54:06.80:- model run 240 completed on node 63.
+   11:54:06.92:- model run 239 completed on node 62.
+   11:54:25.80:- model run 260 completed on node 47.
+   11:54:26.64:- model run 261 completed on node 41.
+   11:55:49.96:- model run 244 completed on node 19.
+   11:55:50.62:- model run 241 completed on node 20.
+   11:56:37.12:- model run 251 completed on node 18.
+   11:56:37.64:- model run 249 completed on node 17.
+   11:56:39.54:- model run 252 completed on node 71.
+   11:56:40.13:- model run 250 completed on node 73.
+   11:57:11.65:- model run 264 completed on node 33.
+   11:57:11.88:- model run 265 completed on node 34.
+   11:57:19.07:- model run 245 completed on node 52.
+   11:57:19.15:- model run 254 completed on node 58.
+   11:57:19.65:- model run 246 completed on node 49.
+   11:57:19.76:- model run 253 completed on node 59.
+   11:57:23.21:- model run 248 completed on node 16.
+   11:57:29.04:- model run 259 completed on node 36.
+   11:57:29.84:- model run 247 completed on node 15.
+   11:57:30.52:- model run 258 completed on node 35.
+   11:57:39.90:- model run 234 completed on node 24.
+   11:57:41.83:- model run 233 completed on node 25.
+   11:58:10.63:- model run 236 completed on node 9.
+   11:58:22.63:- model run 255 completed on node 10.
+   11:58:22.86:- model run 257 completed on node 21.
+   11:59:29.55:- model run 262 completed on node 26.
+   11:59:30.46:- model run 263 completed on node 14.
+   12:00:28.61:- model run 235 completed on node 11.

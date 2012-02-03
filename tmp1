@@ -1,0 +1,911 @@
+12/29/11 13:14:44 Locale: English_United States.1252
+12/29/11 13:14:44 Setting maximum accepts per cycle 4.
+12/29/11 13:14:44 ******************************************************
+12/29/11 13:14:44 ** condor_starter (CONDOR_STARTER) STARTING UP
+12/29/11 13:14:44 ** C:\Condor\bin\condor_starter.exe
+12/29/11 13:14:44 ** SubsystemInfo: name=STARTER type=STARTER(8) class=DAEMON(1)
+12/29/11 13:14:44 ** Configuration: subsystem:STARTER local:<NONE> class:DAEMON
+12/29/11 13:14:44 ** $CondorVersion: 7.6.1 May 31 2011 BuildID: 339001 $
+12/29/11 13:14:44 ** $CondorPlatform: x86_winnt_5.1 $
+12/29/11 13:14:44 ** PID = 3004
+12/29/11 13:14:44 ** Log last touched time unavailable (No such file or directory)
+12/29/11 13:14:44 ******************************************************
+12/29/11 13:14:44 Using config source: c:\Condor\condor_config
+12/29/11 13:14:44 Using local config sources: 
+12/29/11 13:14:44    C:\Condor/condor_config.local
+12/29/11 13:14:44 DaemonCore: command socket at <169.254.95.120:56345>
+12/29/11 13:14:44 DaemonCore: private command socket at <169.254.95.120:56345>
+12/29/11 13:14:44 Setting maximum accepts per cycle 4.
+12/29/11 13:14:44 GLEXEC_JOB not supported on this platform; ignoring
+12/29/11 13:14:44 Setting resource limits not implemented!
+12/29/11 13:14:44 Communicating with shadow <130.11.177.100:63202>
+12/29/11 13:14:44 Submitting machine is "igsarmewfsm00.er.usgs.gov"
+12/29/11 13:14:44 setting the orig job name in starter
+12/29/11 13:14:44 setting the orig job iwd in starter
+12/29/11 13:20:44 File transfer completed successfully.
+12/29/11 13:20:44 Job 210.91 set to execute immediately
+12/29/11 13:20:44 Starting a VANILLA universe job with ID: 210.91
+12/29/11 13:20:44 Tracking process family by login "condor-reuse-slot1"
+12/29/11 13:20:44 IWD: C:\Condor\execute\dir_3004
+12/29/11 13:20:44 Output file: C:\Condor\execute\dir_3004\_condor_stdout
+12/29/11 13:20:44 Error file: C:\Condor\execute\dir_3004\_condor_stderr
+12/29/11 13:20:44 Renice expr "10" evaluated to 10
+12/29/11 13:20:44 About to exec C:\Condor\execute\dir_3004\condor_exec.bat igsarmewfsm00.er.usgs.gov 4041
+12/29/11 13:20:44 Executable is a batch file, running: "C:\Windows\system32\cmd.exe" /Q /C "C:\Condor\execute\dir_3004\condor_exec.bat" igsarmewfsm00.er.usgs.gov 4041
+12/29/11 13:20:44 Create_Process succeeded, pid=3440
+12/29/11 17:26:16 Process exited, pid=3440, status=1
+12/29/11 17:26:20 ReliSock: put_file: Failed to open file C:\Condor\execute\dir_3004\step4p.out, errno = 2.
+12/29/11 17:26:20 DoUpload: (Condor error code 13, subcode 2) STARTER at 130.11.177.97 failed to send file(s) to <130.11.177.100:63202>: error reading from C:\Condor\execute\dir_3004\step4p.out: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <130.11.177.97:60117>
+12/29/11 17:26:20 JICShadow::notifyJobTermination(): Sending mock terminate event.
+12/29/11 17:26:23 JIC::transferOutput() failed, waiting for job lease to expire or for a reconnect attempt
+12/29/11 17:26:23 Returning from CStarter::JobReaper()
+12/29/11 17:26:23 Got SIGQUIT.  Performing fast shutdown.
+12/29/11 17:26:23 ShutdownFast all jobs.
+12/29/11 17:26:25 condor_read() failed: recv() returned -1, errno = 10054 , reading 5 bytes from <130.11.177.100:63234>.
+12/29/11 17:26:25 IO: Failed to read packet header
+12/29/11 17:26:25 condor_write(): Socket closed when trying to write 99 bytes to <130.11.177.100:63234>, fd is 672, errno=10054 
+12/29/11 17:26:25 Buf::write(): condor_write() failed
+12/29/11 17:26:25 Failed to send job exit status to shadow
+12/29/11 17:26:25 JobExit() failed, waiting for job lease to expire or for a reconnect attempt
+12/29/11 17:26:25 **** condor_starter (condor_STARTER) pid 3004 EXITING WITH STATUS 0
+12/30/11 11:25:40 Locale: English_United States.1252
+12/30/11 11:25:40 Setting maximum accepts per cycle 4.
+12/30/11 11:25:40 ******************************************************
+12/30/11 11:25:40 ** condor_starter (CONDOR_STARTER) STARTING UP
+12/30/11 11:25:40 ** C:\Condor\bin\condor_starter.exe
+12/30/11 11:25:40 ** SubsystemInfo: name=STARTER type=STARTER(8) class=DAEMON(1)
+12/30/11 11:25:40 ** Configuration: subsystem:STARTER local:<NONE> class:DAEMON
+12/30/11 11:25:40 ** $CondorVersion: 7.6.1 May 31 2011 BuildID: 339001 $
+12/30/11 11:25:40 ** $CondorPlatform: x86_winnt_5.1 $
+12/30/11 11:25:40 ** PID = 340
+12/30/11 11:25:40 ** Log last touched 12/29 17:26:25
+12/30/11 11:25:40 ******************************************************
+12/30/11 11:25:40 Using config source: c:\Condor\condor_config
+12/30/11 11:25:40 Using local config sources: 
+12/30/11 11:25:40    C:\Condor/condor_config.local
+12/30/11 11:25:40 DaemonCore: command socket at <169.254.95.120:63001>
+12/30/11 11:25:40 DaemonCore: private command socket at <169.254.95.120:63001>
+12/30/11 11:25:40 Setting maximum accepts per cycle 4.
+12/30/11 11:25:40 GLEXEC_JOB not supported on this platform; ignoring
+12/30/11 11:25:40 Setting resource limits not implemented!
+12/30/11 11:25:40 Communicating with shadow <130.11.177.100:54432>
+12/30/11 11:25:40 Submitting machine is "igsarmewfsm00.er.usgs.gov"
+12/30/11 11:25:40 setting the orig job name in starter
+12/30/11 11:25:40 setting the orig job iwd in starter
+12/30/11 11:30:38 File transfer completed successfully.
+12/30/11 11:30:38 Job 211.102 set to execute immediately
+12/30/11 11:30:38 Starting a VANILLA universe job with ID: 211.102
+12/30/11 11:30:38 Tracking process family by login "condor-reuse-slot1"
+12/30/11 11:30:38 IWD: C:\Condor\execute\dir_340
+12/30/11 11:30:38 Output file: C:\Condor\execute\dir_340\_condor_stdout
+12/30/11 11:30:38 Error file: C:\Condor\execute\dir_340\_condor_stderr
+12/30/11 11:30:38 Renice expr "10" evaluated to 10
+12/30/11 11:30:38 About to exec C:\Condor\execute\dir_340\condor_exec.bat igsarmewfsm00.er.usgs.gov 4041
+12/30/11 11:30:38 Executable is a batch file, running: "C:\Windows\system32\cmd.exe" /Q /C "C:\Condor\execute\dir_340\condor_exec.bat" igsarmewfsm00.er.usgs.gov 4041
+12/30/11 11:30:38 Create_Process succeeded, pid=3360
+12/30/11 15:22:29 Process exited, pid=3360, status=1
+12/30/11 15:22:30 Got SIGQUIT.  Performing fast shutdown.
+12/30/11 15:22:30 ShutdownFast all jobs.
+12/30/11 15:22:31 **** condor_starter (condor_STARTER) pid 340 EXITING WITH STATUS 0
+12/30/11 17:16:55 Locale: English_United States.1252
+12/30/11 17:16:55 Setting maximum accepts per cycle 4.
+12/30/11 17:16:55 ******************************************************
+12/30/11 17:16:55 ** condor_starter (CONDOR_STARTER) STARTING UP
+12/30/11 17:16:55 ** C:\Condor\bin\condor_starter.exe
+12/30/11 17:16:55 ** SubsystemInfo: name=STARTER type=STARTER(8) class=DAEMON(1)
+12/30/11 17:16:55 ** Configuration: subsystem:STARTER local:<NONE> class:DAEMON
+12/30/11 17:16:55 ** $CondorVersion: 7.6.1 May 31 2011 BuildID: 339001 $
+12/30/11 17:16:55 ** $CondorPlatform: x86_winnt_5.1 $
+12/30/11 17:16:55 ** PID = 4964
+12/30/11 17:16:55 ** Log last touched 12/30 15:22:31
+12/30/11 17:16:55 ******************************************************
+12/30/11 17:16:55 Using config source: c:\Condor\condor_config
+12/30/11 17:16:55 Using local config sources: 
+12/30/11 17:16:55    C:\Condor/condor_config.local
+12/30/11 17:16:55 DaemonCore: command socket at <169.254.95.120:54707>
+12/30/11 17:16:55 DaemonCore: private command socket at <169.254.95.120:54707>
+12/30/11 17:16:55 Setting maximum accepts per cycle 4.
+12/30/11 17:16:55 GLEXEC_JOB not supported on this platform; ignoring
+12/30/11 17:16:55 Setting resource limits not implemented!
+12/30/11 17:16:55 Communicating with shadow <130.11.177.100:58114>
+12/30/11 17:16:55 Submitting machine is "igsarmewfsm00.er.usgs.gov"
+12/30/11 17:17:05 setting the orig job name in starter
+12/30/11 17:17:05 setting the orig job iwd in starter
+12/30/11 17:21:47 File transfer completed successfully.
+12/30/11 17:21:47 Job 212.84 set to execute immediately
+12/30/11 17:21:47 Starting a VANILLA universe job with ID: 212.84
+12/30/11 17:21:47 Tracking process family by login "condor-reuse-slot1"
+12/30/11 17:21:47 IWD: C:\Condor\execute\dir_4964
+12/30/11 17:21:47 Output file: C:\Condor\execute\dir_4964\_condor_stdout
+12/30/11 17:21:47 Error file: C:\Condor\execute\dir_4964\_condor_stderr
+12/30/11 17:21:47 Renice expr "10" evaluated to 10
+12/30/11 17:21:47 About to exec C:\Condor\execute\dir_4964\condor_exec.bat igsarmewfsm00.er.usgs.gov 4041
+12/30/11 17:21:47 Executable is a batch file, running: "C:\Windows\system32\cmd.exe" /Q /C "C:\Condor\execute\dir_4964\condor_exec.bat" igsarmewfsm00.er.usgs.gov 4041
+12/30/11 17:21:47 Create_Process succeeded, pid=3952
+12/30/11 20:01:07 Process exited, pid=3952, status=0
+12/30/11 20:01:09 ReliSock: put_file: Failed to open file C:\Condor\execute\dir_4964\step4p.out, errno = 2.
+12/30/11 20:01:09 DoUpload: (Condor error code 13, subcode 2) STARTER at 130.11.177.97 failed to send file(s) to <130.11.177.100:58114>: error reading from C:\Condor\execute\dir_4964\step4p.out: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <130.11.177.97:61809>
+12/30/11 20:01:09 JICShadow::notifyJobTermination(): Sending mock terminate event.
+12/30/11 20:01:12 JIC::transferOutput() failed, waiting for job lease to expire or for a reconnect attempt
+12/30/11 20:01:12 Returning from CStarter::JobReaper()
+12/30/11 20:01:12 Got SIGQUIT.  Performing fast shutdown.
+12/30/11 20:01:12 ShutdownFast all jobs.
+12/30/11 20:01:19 condor_read() failed: recv() returned -1, errno = 10054 , reading 5 bytes from <130.11.177.100:58784>.
+12/30/11 20:01:19 IO: Failed to read packet header
+12/30/11 20:01:19 condor_write(): Socket closed when trying to write 99 bytes to <130.11.177.100:58784>, fd is 1212, errno=10054 
+12/30/11 20:01:19 Buf::write(): condor_write() failed
+12/30/11 20:01:19 Failed to send job exit status to shadow
+12/30/11 20:01:19 JobExit() failed, waiting for job lease to expire or for a reconnect attempt
+12/30/11 20:01:19 **** condor_starter (condor_STARTER) pid 4964 EXITING WITH STATUS 0
+12/30/11 20:01:39 Locale: English_United States.1252
+12/30/11 20:01:39 Setting maximum accepts per cycle 4.
+12/30/11 20:01:39 ******************************************************
+12/30/11 20:01:39 ** condor_starter (CONDOR_STARTER) STARTING UP
+12/30/11 20:01:39 ** C:\Condor\bin\condor_starter.exe
+12/30/11 20:01:39 ** SubsystemInfo: name=STARTER type=STARTER(8) class=DAEMON(1)
+12/30/11 20:01:39 ** Configuration: subsystem:STARTER local:<NONE> class:DAEMON
+12/30/11 20:01:39 ** $CondorVersion: 7.6.1 May 31 2011 BuildID: 339001 $
+12/30/11 20:01:39 ** $CondorPlatform: x86_winnt_5.1 $
+12/30/11 20:01:39 ** PID = 4408
+12/30/11 20:01:39 ** Log last touched 12/30 20:01:19
+12/30/11 20:01:39 ******************************************************
+12/30/11 20:01:39 Using config source: c:\Condor\condor_config
+12/30/11 20:01:39 Using local config sources: 
+12/30/11 20:01:39    C:\Condor/condor_config.local
+12/30/11 20:01:39 DaemonCore: command socket at <169.254.95.120:61813>
+12/30/11 20:01:39 DaemonCore: private command socket at <169.254.95.120:61813>
+12/30/11 20:01:39 Setting maximum accepts per cycle 4.
+12/30/11 20:01:39 GLEXEC_JOB not supported on this platform; ignoring
+12/30/11 20:01:39 Setting resource limits not implemented!
+12/30/11 20:01:39 Communicating with shadow <130.11.177.100:60465>
+12/30/11 20:01:39 Submitting machine is "igsarmewfsm00.er.usgs.gov"
+12/30/11 20:01:39 setting the orig job name in starter
+12/30/11 20:01:39 setting the orig job iwd in starter
+12/30/11 20:02:40 File transfer completed successfully.
+12/30/11 20:02:40 Job 212.131 set to execute immediately
+12/30/11 20:02:40 Starting a VANILLA universe job with ID: 212.131
+12/30/11 20:02:40 Tracking process family by login "condor-reuse-slot1"
+12/30/11 20:02:40 IWD: C:\Condor\execute\dir_4408
+12/30/11 20:02:40 Output file: C:\Condor\execute\dir_4408\_condor_stdout
+12/30/11 20:02:40 Error file: C:\Condor\execute\dir_4408\_condor_stderr
+12/30/11 20:02:41 Renice expr "10" evaluated to 10
+12/30/11 20:02:41 About to exec C:\Condor\execute\dir_4408\condor_exec.bat igsarmewfsm00.er.usgs.gov 4041
+12/30/11 20:02:41 Executable is a batch file, running: "C:\Windows\system32\cmd.exe" /Q /C "C:\Condor\execute\dir_4408\condor_exec.bat" igsarmewfsm00.er.usgs.gov 4041
+12/30/11 20:02:41 Create_Process succeeded, pid=776
+12/30/11 20:03:10 Process exited, pid=776, status=0
+12/30/11 20:03:10 ReliSock: put_file: Failed to open file C:\Condor\execute\dir_4408\step4p.out, errno = 2.
+12/30/11 20:03:10 DoUpload: (Condor error code 13, subcode 2) STARTER at 130.11.177.97 failed to send file(s) to <130.11.177.100:60465>: error reading from C:\Condor\execute\dir_4408\step4p.out: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <130.11.177.97:61819>
+12/30/11 20:03:10 JICShadow::notifyJobTermination(): Sending mock terminate event.
+12/30/11 20:03:11 JIC::transferOutput() failed, waiting for job lease to expire or for a reconnect attempt
+12/30/11 20:03:11 Returning from CStarter::JobReaper()
+12/30/11 20:03:11 Got SIGQUIT.  Performing fast shutdown.
+12/30/11 20:03:11 ShutdownFast all jobs.
+12/30/11 20:03:11 condor_read() failed: recv() returned -1, errno = 10054 , reading 5 bytes from <130.11.177.100:60472>.
+12/30/11 20:03:11 IO: Failed to read packet header
+12/30/11 20:03:11 condor_write(): Socket closed when trying to write 99 bytes to <130.11.177.100:60472>, fd is 720, errno=10054 
+12/30/11 20:03:11 Buf::write(): condor_write() failed
+12/30/11 20:03:11 Failed to send job exit status to shadow
+12/30/11 20:03:11 JobExit() failed, waiting for job lease to expire or for a reconnect attempt
+12/30/11 20:03:12 **** condor_starter (condor_STARTER) pid 4408 EXITING WITH STATUS 0
+12/31/11 12:07:17 Locale: English_United States.1252
+12/31/11 12:07:17 Setting maximum accepts per cycle 4.
+12/31/11 12:07:17 ******************************************************
+12/31/11 12:07:17 ** condor_starter (CONDOR_STARTER) STARTING UP
+12/31/11 12:07:17 ** C:\Condor\bin\condor_starter.exe
+12/31/11 12:07:17 ** SubsystemInfo: name=STARTER type=STARTER(8) class=DAEMON(1)
+12/31/11 12:07:17 ** Configuration: subsystem:STARTER local:<NONE> class:DAEMON
+12/31/11 12:07:17 ** $CondorVersion: 7.6.1 May 31 2011 BuildID: 339001 $
+12/31/11 12:07:17 ** $CondorPlatform: x86_winnt_5.1 $
+12/31/11 12:07:17 ** PID = 3832
+12/31/11 12:07:17 ** Log last touched 12/30 20:03:12
+12/31/11 12:07:17 ******************************************************
+12/31/11 12:07:17 Using config source: c:\Condor\condor_config
+12/31/11 12:07:17 Using local config sources: 
+12/31/11 12:07:17    C:\Condor/condor_config.local
+12/31/11 12:07:17 DaemonCore: command socket at <169.254.95.120:57387>
+12/31/11 12:07:17 DaemonCore: private command socket at <169.254.95.120:57387>
+12/31/11 12:07:17 Setting maximum accepts per cycle 4.
+12/31/11 12:07:17 GLEXEC_JOB not supported on this platform; ignoring
+12/31/11 12:07:17 Setting resource limits not implemented!
+12/31/11 12:07:19 Communicating with shadow <130.11.177.100:63980>
+12/31/11 12:07:19 Submitting machine is "igsarmewfsm00.er.usgs.gov"
+12/31/11 12:07:23 setting the orig job name in starter
+12/31/11 12:07:23 setting the orig job iwd in starter
+12/31/11 12:12:41 File transfer completed successfully.
+12/31/11 12:12:41 Job 213.81 set to execute immediately
+12/31/11 12:12:41 Starting a VANILLA universe job with ID: 213.81
+12/31/11 12:12:41 Tracking process family by login "condor-reuse-slot1"
+12/31/11 12:12:41 IWD: C:\Condor\execute\dir_3832
+12/31/11 12:12:41 Output file: C:\Condor\execute\dir_3832\_condor_stdout
+12/31/11 12:12:41 Error file: C:\Condor\execute\dir_3832\_condor_stderr
+12/31/11 12:12:42 Renice expr "10" evaluated to 10
+12/31/11 12:12:42 About to exec C:\Condor\execute\dir_3832\condor_exec.bat igsarmewfsm00.er.usgs.gov 4041
+12/31/11 12:12:42 Executable is a batch file, running: "C:\Windows\system32\cmd.exe" /Q /C "C:\Condor\execute\dir_3832\condor_exec.bat" igsarmewfsm00.er.usgs.gov 4041
+12/31/11 12:12:42 Create_Process succeeded, pid=4168
+01/01/12 14:05:21 Process exited, pid=4168, status=0
+01/01/12 14:05:58 Got SIGQUIT.  Performing fast shutdown.
+01/01/12 14:05:58 ShutdownFast all jobs.
+01/01/12 14:05:58 **** condor_starter (condor_STARTER) pid 3832 EXITING WITH STATUS 0
+01/01/12 18:18:22 Locale: English_United States.1252
+01/01/12 18:18:22 Setting maximum accepts per cycle 4.
+01/01/12 18:18:22 ******************************************************
+01/01/12 18:18:22 ** condor_starter (CONDOR_STARTER) STARTING UP
+01/01/12 18:18:22 ** C:\Condor\bin\condor_starter.exe
+01/01/12 18:18:22 ** SubsystemInfo: name=STARTER type=STARTER(8) class=DAEMON(1)
+01/01/12 18:18:22 ** Configuration: subsystem:STARTER local:<NONE> class:DAEMON
+01/01/12 18:18:22 ** $CondorVersion: 7.6.1 May 31 2011 BuildID: 339001 $
+01/01/12 18:18:22 ** $CondorPlatform: x86_winnt_5.1 $
+01/01/12 18:18:22 ** PID = 3500
+01/01/12 18:18:22 ** Log last touched 1/1 14:05:58
+01/01/12 18:18:22 ******************************************************
+01/01/12 18:18:22 Using config source: c:\Condor\condor_config
+01/01/12 18:18:22 Using local config sources: 
+01/01/12 18:18:22    C:\Condor/condor_config.local
+01/01/12 18:18:22 DaemonCore: command socket at <169.254.95.120:60789>
+01/01/12 18:18:22 DaemonCore: private command socket at <169.254.95.120:60789>
+01/01/12 18:18:22 Setting maximum accepts per cycle 4.
+01/01/12 18:18:22 GLEXEC_JOB not supported on this platform; ignoring
+01/01/12 18:18:22 Setting resource limits not implemented!
+01/01/12 18:18:22 Communicating with shadow <130.11.177.100:60404>
+01/01/12 18:18:22 Submitting machine is "igsarmewfsm00.er.usgs.gov"
+01/01/12 18:18:22 setting the orig job name in starter
+01/01/12 18:18:22 setting the orig job iwd in starter
+01/01/12 18:22:05 File transfer completed successfully.
+01/01/12 18:22:05 Job 214.115 set to execute immediately
+01/01/12 18:22:05 Starting a VANILLA universe job with ID: 214.115
+01/01/12 18:22:05 Tracking process family by login "condor-reuse-slot1"
+01/01/12 18:22:05 IWD: C:\Condor\execute\dir_3500
+01/01/12 18:22:05 Output file: C:\Condor\execute\dir_3500\_condor_stdout
+01/01/12 18:22:06 Error file: C:\Condor\execute\dir_3500\_condor_stderr
+01/01/12 18:22:06 Renice expr "10" evaluated to 10
+01/01/12 18:22:06 About to exec C:\Condor\execute\dir_3500\condor_exec.bat 130.11.177.73 4041
+01/01/12 18:22:06 Executable is a batch file, running: "C:\Windows\system32\cmd.exe" /Q /C "C:\Condor\execute\dir_3500\condor_exec.bat" 130.11.177.73 4041
+01/01/12 18:22:06 Create_Process succeeded, pid=2816
+01/04/12 10:43:27 Got SIGQUIT.  Performing fast shutdown.
+01/04/12 10:43:27 ShutdownFast all jobs.
+01/04/12 10:43:27 Process exited, pid=2816, status=0
+01/04/12 10:43:27 Last process exited, now Starter is exiting
+01/04/12 10:43:27 **** condor_starter (condor_STARTER) pid 3500 EXITING WITH STATUS 0
+01/04/12 11:33:57 Locale: English_United States.1252
+01/04/12 11:33:57 Setting maximum accepts per cycle 4.
+01/04/12 11:33:57 ******************************************************
+01/04/12 11:33:57 ** condor_starter (CONDOR_STARTER) STARTING UP
+01/04/12 11:33:57 ** C:\Condor\bin\condor_starter.exe
+01/04/12 11:33:57 ** SubsystemInfo: name=STARTER type=STARTER(8) class=DAEMON(1)
+01/04/12 11:33:57 ** Configuration: subsystem:STARTER local:<NONE> class:DAEMON
+01/04/12 11:33:57 ** $CondorVersion: 7.6.1 May 31 2011 BuildID: 339001 $
+01/04/12 11:33:57 ** $CondorPlatform: x86_winnt_5.1 $
+01/04/12 11:33:57 ** PID = 2160
+01/04/12 11:33:57 ** Log last touched 1/4 10:43:27
+01/04/12 11:33:57 ******************************************************
+01/04/12 11:33:57 Using config source: c:\Condor\condor_config
+01/04/12 11:33:57 Using local config sources: 
+01/04/12 11:33:57    C:\Condor/condor_config.local
+01/04/12 11:33:57 DaemonCore: command socket at <169.254.95.120:49873>
+01/04/12 11:33:57 DaemonCore: private command socket at <169.254.95.120:49873>
+01/04/12 11:33:57 Setting maximum accepts per cycle 4.
+01/04/12 11:33:57 GLEXEC_JOB not supported on this platform; ignoring
+01/04/12 11:33:57 Setting resource limits not implemented!
+01/04/12 11:33:57 Communicating with shadow <130.11.177.100:53449>
+01/04/12 11:33:57 Submitting machine is "igsarmewfsm00.er.usgs.gov"
+01/04/12 11:33:57 setting the orig job name in starter
+01/04/12 11:33:57 setting the orig job iwd in starter
+01/04/12 11:34:10 File transfer completed successfully.
+01/04/12 11:34:11 Job 216.120 set to execute immediately
+01/04/12 11:34:11 Starting a VANILLA universe job with ID: 216.120
+01/04/12 11:34:11 Tracking process family by login "condor-reuse-slot1"
+01/04/12 11:34:11 IWD: C:\Condor\execute\dir_2160
+01/04/12 11:34:11 Output file: streaming from remote file condor_output/w_216_120.out
+01/04/12 11:34:11 Error file: streaming from remote file condor_output/w_216_120.err
+01/04/12 11:34:11 Renice expr "10" evaluated to 10
+01/04/12 11:34:11 About to exec C:\Condor\execute\dir_2160\condor_exec.bat igsarmewfsm00.er.usgs.gov 404040
+01/04/12 11:34:11 Executable is a batch file, running: "C:\Windows\system32\cmd.exe" /Q /C "C:\Condor\execute\dir_2160\condor_exec.bat" igsarmewfsm00.er.usgs.gov 404040
+01/04/12 11:34:11 Create_Process succeeded, pid=4148
+01/04/12 11:35:05 Process exited, pid=4148, status=0
+01/04/12 11:35:12 Got SIGQUIT.  Performing fast shutdown.
+01/04/12 11:35:12 ShutdownFast all jobs.
+01/04/12 11:35:12 **** condor_starter (condor_STARTER) pid 2160 EXITING WITH STATUS 0
+01/04/12 11:46:40 Locale: English_United States.1252
+01/04/12 11:46:40 Setting maximum accepts per cycle 4.
+01/04/12 11:46:40 ******************************************************
+01/04/12 11:46:40 ** condor_starter (CONDOR_STARTER) STARTING UP
+01/04/12 11:46:40 ** C:\Condor\bin\condor_starter.exe
+01/04/12 11:46:40 ** SubsystemInfo: name=STARTER type=STARTER(8) class=DAEMON(1)
+01/04/12 11:46:40 ** Configuration: subsystem:STARTER local:<NONE> class:DAEMON
+01/04/12 11:46:40 ** $CondorVersion: 7.6.1 May 31 2011 BuildID: 339001 $
+01/04/12 11:46:40 ** $CondorPlatform: x86_winnt_5.1 $
+01/04/12 11:46:40 ** PID = 2964
+01/04/12 11:46:40 ** Log last touched 1/4 11:35:12
+01/04/12 11:46:40 ******************************************************
+01/04/12 11:46:40 Using config source: c:\Condor\condor_config
+01/04/12 11:46:40 Using local config sources: 
+01/04/12 11:46:40    C:\Condor/condor_config.local
+01/04/12 11:46:40 DaemonCore: command socket at <169.254.95.120:65009>
+01/04/12 11:46:40 DaemonCore: private command socket at <169.254.95.120:65009>
+01/04/12 11:46:40 Setting maximum accepts per cycle 4.
+01/04/12 11:46:40 GLEXEC_JOB not supported on this platform; ignoring
+01/04/12 11:46:40 Setting resource limits not implemented!
+01/04/12 11:46:40 Communicating with shadow <130.11.177.100:57071>
+01/04/12 11:46:40 Submitting machine is "igsarmewfsm00.er.usgs.gov"
+01/04/12 11:46:40 setting the orig job name in starter
+01/04/12 11:46:40 setting the orig job iwd in starter
+01/04/12 11:46:55 File transfer completed successfully.
+01/04/12 11:46:56 Job 218.120 set to execute immediately
+01/04/12 11:46:56 Starting a VANILLA universe job with ID: 218.120
+01/04/12 11:46:56 Tracking process family by login "condor-reuse-slot1"
+01/04/12 11:46:56 IWD: C:\Condor\execute\dir_2964
+01/04/12 11:46:56 Output file: streaming from remote file condor_output/w_218_120.out
+01/04/12 11:46:56 Error file: streaming from remote file condor_output/w_218_120.err
+01/04/12 11:46:56 Renice expr "10" evaluated to 10
+01/04/12 11:46:56 About to exec C:\Condor\execute\dir_2964\condor_exec.bat igsarmewfsm00.er.usgs.gov 404040
+01/04/12 11:46:56 Executable is a batch file, running: "C:\Windows\system32\cmd.exe" /Q /C "C:\Condor\execute\dir_2964\condor_exec.bat" igsarmewfsm00.er.usgs.gov 404040
+01/04/12 11:46:56 Create_Process succeeded, pid=712
+01/05/12 01:47:43 Process exited, pid=712, status=0
+01/05/12 01:47:43 Got SIGQUIT.  Performing fast shutdown.
+01/05/12 01:47:43 ShutdownFast all jobs.
+01/05/12 01:47:43 **** condor_starter (condor_STARTER) pid 2964 EXITING WITH STATUS 0
+01/06/12 18:10:00 Locale: English_United States.1252
+01/06/12 18:10:00 Setting maximum accepts per cycle 4.
+01/06/12 18:10:00 ******************************************************
+01/06/12 18:10:00 ** condor_starter (CONDOR_STARTER) STARTING UP
+01/06/12 18:10:00 ** C:\Condor\bin\condor_starter.exe
+01/06/12 18:10:00 ** SubsystemInfo: name=STARTER type=STARTER(8) class=DAEMON(1)
+01/06/12 18:10:00 ** Configuration: subsystem:STARTER local:<NONE> class:DAEMON
+01/06/12 18:10:00 ** $CondorVersion: 7.6.1 May 31 2011 BuildID: 339001 $
+01/06/12 18:10:00 ** $CondorPlatform: x86_winnt_5.1 $
+01/06/12 18:10:00 ** PID = 3764
+01/06/12 18:10:00 ** Log last touched 1/5 01:47:43
+01/06/12 18:10:00 ******************************************************
+01/06/12 18:10:00 Using config source: c:\Condor\condor_config
+01/06/12 18:10:00 Using local config sources: 
+01/06/12 18:10:00    C:\Condor/condor_config.local
+01/06/12 18:10:00 DaemonCore: command socket at <169.254.95.120:61473>
+01/06/12 18:10:00 DaemonCore: private command socket at <169.254.95.120:61473>
+01/06/12 18:10:00 Setting maximum accepts per cycle 4.
+01/06/12 18:10:00 GLEXEC_JOB not supported on this platform; ignoring
+01/06/12 18:10:00 Setting resource limits not implemented!
+01/06/12 18:10:00 Communicating with shadow <130.11.177.100:57056>
+01/06/12 18:10:00 Submitting machine is "igsarmewfsm00.er.usgs.gov"
+01/06/12 18:10:00 setting the orig job name in starter
+01/06/12 18:10:00 setting the orig job iwd in starter
+01/06/12 18:10:41 File transfer completed successfully.
+01/06/12 18:10:41 Job 220.186 set to execute immediately
+01/06/12 18:10:41 Starting a VANILLA universe job with ID: 220.186
+01/06/12 18:10:41 Tracking process family by login "condor-reuse-slot1"
+01/06/12 18:10:41 IWD: C:\Condor\execute\dir_3764
+01/06/12 18:10:41 Output file: C:\Condor\execute\dir_3764\_condor_stdout
+01/06/12 18:10:41 Error file: C:\Condor\execute\dir_3764\_condor_stderr
+01/06/12 18:10:41 Renice expr "10" evaluated to 10
+01/06/12 18:10:41 About to exec C:\Condor\execute\dir_3764\condor_exec.bat 130.11.177.100 4041
+01/06/12 18:10:41 Executable is a batch file, running: "C:\Windows\system32\cmd.exe" /Q /C "C:\Condor\execute\dir_3764\condor_exec.bat" 130.11.177.100 4041
+01/06/12 18:10:41 Create_Process succeeded, pid=4516
+01/07/12 07:46:20 Process exited, pid=4516, status=0
+01/07/12 07:46:44 Got SIGQUIT.  Performing fast shutdown.
+01/07/12 07:46:44 ShutdownFast all jobs.
+01/07/12 07:46:44 **** condor_starter (condor_STARTER) pid 3764 EXITING WITH STATUS 0
+01/07/12 14:34:13 Locale: English_United States.1252
+01/07/12 14:34:13 Setting maximum accepts per cycle 4.
+01/07/12 14:34:13 ******************************************************
+01/07/12 14:34:13 ** condor_starter (CONDOR_STARTER) STARTING UP
+01/07/12 14:34:13 ** C:\Condor\bin\condor_starter.exe
+01/07/12 14:34:13 ** SubsystemInfo: name=STARTER type=STARTER(8) class=DAEMON(1)
+01/07/12 14:34:13 ** Configuration: subsystem:STARTER local:<NONE> class:DAEMON
+01/07/12 14:34:13 ** $CondorVersion: 7.6.1 May 31 2011 BuildID: 339001 $
+01/07/12 14:34:13 ** $CondorPlatform: x86_winnt_5.1 $
+01/07/12 14:34:13 ** PID = 2136
+01/07/12 14:34:13 ** Log last touched 1/7 07:46:44
+01/07/12 14:34:13 ******************************************************
+01/07/12 14:34:13 Using config source: c:\Condor\condor_config
+01/07/12 14:34:13 Using local config sources: 
+01/07/12 14:34:13    C:\Condor/condor_config.local
+01/07/12 14:34:13 DaemonCore: command socket at <169.254.95.120:57659>
+01/07/12 14:34:13 DaemonCore: private command socket at <169.254.95.120:57659>
+01/07/12 14:34:13 Setting maximum accepts per cycle 4.
+01/07/12 14:34:13 GLEXEC_JOB not supported on this platform; ignoring
+01/07/12 14:34:13 Setting resource limits not implemented!
+01/07/12 14:34:13 Communicating with shadow <130.11.177.100:52011>
+01/07/12 14:34:13 Submitting machine is "igsarmewfsm00.er.usgs.gov"
+01/07/12 14:34:13 setting the orig job name in starter
+01/07/12 14:34:13 setting the orig job iwd in starter
+01/07/12 14:34:29 File transfer completed successfully.
+01/07/12 14:34:29 Job 219.187 set to execute immediately
+01/07/12 14:34:29 Starting a VANILLA universe job with ID: 219.187
+01/07/12 14:34:29 Tracking process family by login "condor-reuse-slot1"
+01/07/12 14:34:29 IWD: C:\Condor\execute\dir_2136
+01/07/12 14:34:29 Output file: C:\Condor\execute\dir_2136\_condor_stdout
+01/07/12 14:34:29 Error file: C:\Condor\execute\dir_2136\_condor_stderr
+01/07/12 14:34:29 Renice expr "10" evaluated to 10
+01/07/12 14:34:29 About to exec C:\Condor\execute\dir_2136\condor_exec.bat 130.11.177.100 4041
+01/07/12 14:34:29 Executable is a batch file, running: "C:\Windows\system32\cmd.exe" /Q /C "C:\Condor\execute\dir_2136\condor_exec.bat" 130.11.177.100 4041
+01/07/12 14:34:30 Create_Process succeeded, pid=1996
+01/07/12 14:35:28 Process exited, pid=1996, status=0
+01/07/12 14:35:51 ReliSock: put_file: Failed to open file C:\Condor\execute\dir_2136\gsflow.log, errno = 2.
+01/07/12 14:35:51 ReliSock: put_file: Failed to open file C:\Condor\execute\dir_2136\gsflow.out, errno = 2.
+01/07/12 14:35:51 DoUpload: (Condor error code 13, subcode 2) STARTER at 130.11.177.97 failed to send file(s) to <130.11.177.100:52011>: error reading from C:\Condor\execute\dir_2136\gsflow.log: (errno 2) No such file or directory; SHADOW failed to receive file(s) from <130.11.177.97:57875>
+01/07/12 14:35:51 JICShadow::notifyJobTermination(): Sending mock terminate event.
+01/07/12 14:36:08 JIC::transferOutput() failed, waiting for job lease to expire or for a reconnect attempt
+01/07/12 14:36:08 Returning from CStarter::JobReaper()
+01/07/12 14:36:08 Got SIGQUIT.  Performing fast shutdown.
+01/07/12 14:36:08 ShutdownFast all jobs.
+01/07/12 14:36:17 condor_read() failed: recv() returned -1, errno = 10054 , reading 5 bytes from <130.11.177.100:52047>.
+01/07/12 14:36:17 IO: Failed to read packet header
+01/07/12 14:36:17 condor_write(): Socket closed when trying to write 98 bytes to <130.11.177.100:52047>, fd is 328, errno=10054 
+01/07/12 14:36:17 Buf::write(): condor_write() failed
+01/07/12 14:36:17 Failed to send job exit status to shadow
+01/07/12 14:36:17 JobExit() failed, waiting for job lease to expire or for a reconnect attempt
+01/07/12 14:36:17 **** condor_starter (condor_STARTER) pid 2136 EXITING WITH STATUS 0
+01/07/12 15:31:19 Locale: English_United States.1252
+01/07/12 15:31:19 Setting maximum accepts per cycle 4.
+01/07/12 15:31:19 ******************************************************
+01/07/12 15:31:19 ** condor_starter (CONDOR_STARTER) STARTING UP
+01/07/12 15:31:19 ** C:\Condor\bin\condor_starter.exe
+01/07/12 15:31:19 ** SubsystemInfo: name=STARTER type=STARTER(8) class=DAEMON(1)
+01/07/12 15:31:19 ** Configuration: subsystem:STARTER local:<NONE> class:DAEMON
+01/07/12 15:31:19 ** $CondorVersion: 7.6.1 May 31 2011 BuildID: 339001 $
+01/07/12 15:31:19 ** $CondorPlatform: x86_winnt_5.1 $
+01/07/12 15:31:19 ** PID = 3872
+01/07/12 15:31:19 ** Log last touched 1/7 14:36:17
+01/07/12 15:31:19 ******************************************************
+01/07/12 15:31:19 Using config source: c:\Condor\condor_config
+01/07/12 15:31:19 Using local config sources: 
+01/07/12 15:31:19    C:\Condor/condor_config.local
+01/07/12 15:31:19 DaemonCore: command socket at <169.254.95.120:52432>
+01/07/12 15:31:19 DaemonCore: private command socket at <169.254.95.120:52432>
+01/07/12 15:31:19 Setting maximum accepts per cycle 4.
+01/07/12 15:31:19 GLEXEC_JOB not supported on this platform; ignoring
+01/07/12 15:31:19 Setting resource limits not implemented!
+01/07/12 15:31:19 Communicating with shadow <130.11.177.100:61007>
+01/07/12 15:31:19 Submitting machine is "igsarmewfsm00.er.usgs.gov"
+01/07/12 15:31:19 setting the orig job name in starter
+01/07/12 15:31:19 setting the orig job iwd in starter
+01/07/12 15:31:54 File transfer completed successfully.
+01/07/12 15:31:54 Job 221.174 set to execute immediately
+01/07/12 15:31:54 Starting a VANILLA universe job with ID: 221.174
+01/07/12 15:31:54 Tracking process family by login "condor-reuse-slot1"
+01/07/12 15:31:54 IWD: C:\Condor\execute\dir_3872
+01/07/12 15:31:54 Output file: C:\Condor\execute\dir_3872\_condor_stdout
+01/07/12 15:31:54 Error file: C:\Condor\execute\dir_3872\_condor_stderr
+01/07/12 15:31:54 Renice expr "10" evaluated to 10
+01/07/12 15:31:54 About to exec C:\Condor\execute\dir_3872\condor_exec.bat 130.11.177.100 4041
+01/07/12 15:31:54 Executable is a batch file, running: "C:\Windows\system32\cmd.exe" /Q /C "C:\Condor\execute\dir_3872\condor_exec.bat" 130.11.177.100 4041
+01/07/12 15:31:54 Create_Process succeeded, pid=2984
+01/07/12 21:13:48 Process exited, pid=2984, status=1
+01/07/12 21:13:49 Got SIGQUIT.  Performing fast shutdown.
+01/07/12 21:13:49 ShutdownFast all jobs.
+01/07/12 21:13:49 **** condor_starter (condor_STARTER) pid 3872 EXITING WITH STATUS 0
+01/08/12 15:35:33 Locale: English_United States.1252
+01/08/12 15:35:33 Setting maximum accepts per cycle 4.
+01/08/12 15:35:33 ******************************************************
+01/08/12 15:35:33 ** condor_starter (CONDOR_STARTER) STARTING UP
+01/08/12 15:35:33 ** C:\Condor\bin\condor_starter.exe
+01/08/12 15:35:33 ** SubsystemInfo: name=STARTER type=STARTER(8) class=DAEMON(1)
+01/08/12 15:35:33 ** Configuration: subsystem:STARTER local:<NONE> class:DAEMON
+01/08/12 15:35:33 ** $CondorVersion: 7.6.1 May 31 2011 BuildID: 339001 $
+01/08/12 15:35:33 ** $CondorPlatform: x86_winnt_5.1 $
+01/08/12 15:35:33 ** PID = 3740
+01/08/12 15:35:33 ** Log last touched 1/7 21:13:49
+01/08/12 15:35:33 ******************************************************
+01/08/12 15:35:33 Using config source: c:\Condor\condor_config
+01/08/12 15:35:33 Using local config sources: 
+01/08/12 15:35:33    C:\Condor/condor_config.local
+01/08/12 15:35:33 DaemonCore: command socket at <169.254.95.120:57218>
+01/08/12 15:35:33 DaemonCore: private command socket at <169.254.95.120:57218>
+01/08/12 15:35:33 Setting maximum accepts per cycle 4.
+01/08/12 15:35:33 GLEXEC_JOB not supported on this platform; ignoring
+01/08/12 15:35:33 Setting resource limits not implemented!
+01/08/12 15:35:33 Communicating with shadow <130.11.177.100:61836>
+01/08/12 15:35:33 Submitting machine is "igsarmewfsm00.er.usgs.gov"
+01/08/12 15:35:33 setting the orig job name in starter
+01/08/12 15:35:33 setting the orig job iwd in starter
+01/08/12 15:36:15 File transfer completed successfully.
+01/08/12 15:36:15 Job 222.186 set to execute immediately
+01/08/12 15:36:15 Starting a VANILLA universe job with ID: 222.186
+01/08/12 15:36:15 Tracking process family by login "condor-reuse-slot1"
+01/08/12 15:36:15 IWD: C:\Condor\execute\dir_3740
+01/08/12 15:36:15 Output file: C:\Condor\execute\dir_3740\_condor_stdout
+01/08/12 15:36:15 Error file: C:\Condor\execute\dir_3740\_condor_stderr
+01/08/12 15:36:15 Renice expr "10" evaluated to 10
+01/08/12 15:36:15 About to exec C:\Condor\execute\dir_3740\condor_exec.bat 130.11.177.100 4041
+01/08/12 15:36:15 Executable is a batch file, running: "C:\Windows\system32\cmd.exe" /Q /C "C:\Condor\execute\dir_3740\condor_exec.bat" 130.11.177.100 4041
+01/08/12 15:36:15 Create_Process succeeded, pid=3592
+01/08/12 16:25:17 Got SIGQUIT.  Performing fast shutdown.
+01/08/12 16:25:17 ShutdownFast all jobs.
+01/08/12 16:25:18 Process exited, pid=3592, status=0
+01/08/12 16:25:18 Last process exited, now Starter is exiting
+01/08/12 16:25:19 **** condor_starter (condor_STARTER) pid 3740 EXITING WITH STATUS 0
+01/08/12 16:32:17 Locale: English_United States.1252
+01/08/12 16:32:17 Setting maximum accepts per cycle 4.
+01/08/12 16:32:17 ******************************************************
+01/08/12 16:32:17 ** condor_starter (CONDOR_STARTER) STARTING UP
+01/08/12 16:32:17 ** C:\Condor\bin\condor_starter.exe
+01/08/12 16:32:17 ** SubsystemInfo: name=STARTER type=STARTER(8) class=DAEMON(1)
+01/08/12 16:32:17 ** Configuration: subsystem:STARTER local:<NONE> class:DAEMON
+01/08/12 16:32:17 ** $CondorVersion: 7.6.1 May 31 2011 BuildID: 339001 $
+01/08/12 16:32:17 ** $CondorPlatform: x86_winnt_5.1 $
+01/08/12 16:32:17 ** PID = 2224
+01/08/12 16:32:17 ** Log last touched 1/8 16:25:19
+01/08/12 16:32:17 ******************************************************
+01/08/12 16:32:17 Using config source: c:\Condor\condor_config
+01/08/12 16:32:17 Using local config sources: 
+01/08/12 16:32:17    C:\Condor/condor_config.local
+01/08/12 16:32:17 DaemonCore: command socket at <169.254.95.120:63190>
+01/08/12 16:32:17 DaemonCore: private command socket at <169.254.95.120:63190>
+01/08/12 16:32:17 Setting maximum accepts per cycle 4.
+01/08/12 16:32:17 GLEXEC_JOB not supported on this platform; ignoring
+01/08/12 16:32:17 Setting resource limits not implemented!
+01/08/12 16:32:17 Communicating with shadow <130.11.177.100:61311>
+01/08/12 16:32:17 Submitting machine is "igsarmewfsm00.er.usgs.gov"
+01/08/12 16:32:17 setting the orig job name in starter
+01/08/12 16:32:17 setting the orig job iwd in starter
+01/08/12 16:33:01 File transfer completed successfully.
+01/08/12 16:33:01 Job 223.180 set to execute immediately
+01/08/12 16:33:01 Starting a VANILLA universe job with ID: 223.180
+01/08/12 16:33:01 Tracking process family by login "condor-reuse-slot1"
+01/08/12 16:33:01 IWD: C:\Condor\execute\dir_2224
+01/08/12 16:33:01 Output file: C:\Condor\execute\dir_2224\_condor_stdout
+01/08/12 16:33:01 Error file: C:\Condor\execute\dir_2224\_condor_stderr
+01/08/12 16:33:01 Renice expr "10" evaluated to 10
+01/08/12 16:33:01 About to exec C:\Condor\execute\dir_2224\condor_exec.bat 130.11.177.100 4041
+01/08/12 16:33:01 Executable is a batch file, running: "C:\Windows\system32\cmd.exe" /Q /C "C:\Condor\execute\dir_2224\condor_exec.bat" 130.11.177.100 4041
+01/08/12 16:33:01 Create_Process succeeded, pid=2484
+01/10/12 09:33:36 Process exited, pid=2484, status=1
+01/10/12 09:33:59 Got SIGQUIT.  Performing fast shutdown.
+01/10/12 09:33:59 ShutdownFast all jobs.
+01/10/12 09:33:59 **** condor_starter (condor_STARTER) pid 2224 EXITING WITH STATUS 0
+01/10/12 09:35:56 Locale: English_United States.1252
+01/10/12 09:35:56 Setting maximum accepts per cycle 4.
+01/10/12 09:35:56 ******************************************************
+01/10/12 09:35:56 ** condor_starter (CONDOR_STARTER) STARTING UP
+01/10/12 09:35:56 ** C:\Condor\bin\condor_starter.exe
+01/10/12 09:35:56 ** SubsystemInfo: name=STARTER type=STARTER(8) class=DAEMON(1)
+01/10/12 09:35:56 ** Configuration: subsystem:STARTER local:<NONE> class:DAEMON
+01/10/12 09:35:56 ** $CondorVersion: 7.6.1 May 31 2011 BuildID: 339001 $
+01/10/12 09:35:56 ** $CondorPlatform: x86_winnt_5.1 $
+01/10/12 09:35:56 ** PID = 3840
+01/10/12 09:35:56 ** Log last touched 1/10 09:33:59
+01/10/12 09:35:56 ******************************************************
+01/10/12 09:35:56 Using config source: c:\Condor\condor_config
+01/10/12 09:35:56 Using local config sources: 
+01/10/12 09:35:56    C:\Condor/condor_config.local
+01/10/12 09:35:56 DaemonCore: command socket at <169.254.95.120:51965>
+01/10/12 09:35:56 DaemonCore: private command socket at <169.254.95.120:51965>
+01/10/12 09:35:56 Setting maximum accepts per cycle 4.
+01/10/12 09:35:56 GLEXEC_JOB not supported on this platform; ignoring
+01/10/12 09:35:56 Setting resource limits not implemented!
+01/10/12 09:35:56 Communicating with shadow <130.11.177.100:61240>
+01/10/12 09:35:56 Submitting machine is "igsarmewfsm00.er.usgs.gov"
+01/10/12 09:35:56 setting the orig job name in starter
+01/10/12 09:35:56 setting the orig job iwd in starter
+01/10/12 09:36:32 File transfer completed successfully.
+01/10/12 09:36:32 Job 224.169 set to execute immediately
+01/10/12 09:36:32 Starting a VANILLA universe job with ID: 224.169
+01/10/12 09:36:32 Tracking process family by login "condor-reuse-slot1"
+01/10/12 09:36:32 IWD: C:\Condor\execute\dir_3840
+01/10/12 09:36:32 Output file: C:\Condor\execute\dir_3840\_condor_stdout
+01/10/12 09:36:32 Error file: C:\Condor\execute\dir_3840\_condor_stderr
+01/10/12 09:36:32 Renice expr "10" evaluated to 10
+01/10/12 09:36:32 About to exec C:\Condor\execute\dir_3840\condor_exec.bat 130.11.177.100 4041
+01/10/12 09:36:32 Executable is a batch file, running: "C:\Windows\system32\cmd.exe" /Q /C "C:\Condor\execute\dir_3840\condor_exec.bat" 130.11.177.100 4041
+01/10/12 09:36:32 Create_Process succeeded, pid=3892
+01/17/12 09:03:12 Got SIGQUIT.  Performing fast shutdown.
+01/17/12 09:03:12 ShutdownFast all jobs.
+01/17/12 09:03:12 Process exited, pid=3892, status=0
+01/17/12 09:03:13 Last process exited, now Starter is exiting
+01/17/12 09:03:13 **** condor_starter (condor_STARTER) pid 3840 EXITING WITH STATUS 0
+01/17/12 09:06:58 Locale: English_United States.1252
+01/17/12 09:06:58 Setting maximum accepts per cycle 4.
+01/17/12 09:06:58 ******************************************************
+01/17/12 09:06:58 ** condor_starter (CONDOR_STARTER) STARTING UP
+01/17/12 09:06:58 ** C:\Condor\bin\condor_starter.exe
+01/17/12 09:06:58 ** SubsystemInfo: name=STARTER type=STARTER(8) class=DAEMON(1)
+01/17/12 09:06:58 ** Configuration: subsystem:STARTER local:<NONE> class:DAEMON
+01/17/12 09:06:58 ** $CondorVersion: 7.6.1 May 31 2011 BuildID: 339001 $
+01/17/12 09:06:58 ** $CondorPlatform: x86_winnt_5.1 $
+01/17/12 09:06:58 ** PID = 2876
+01/17/12 09:06:58 ** Log last touched 1/17 09:03:13
+01/17/12 09:06:58 ******************************************************
+01/17/12 09:06:58 Using config source: c:\Condor\condor_config
+01/17/12 09:06:58 Using local config sources: 
+01/17/12 09:06:58    C:\Condor/condor_config.local
+01/17/12 09:06:58 DaemonCore: command socket at <169.254.95.120:51379>
+01/17/12 09:06:58 DaemonCore: private command socket at <169.254.95.120:51379>
+01/17/12 09:06:58 Setting maximum accepts per cycle 4.
+01/17/12 09:06:58 GLEXEC_JOB not supported on this platform; ignoring
+01/17/12 09:06:58 Setting resource limits not implemented!
+01/17/12 09:06:58 Communicating with shadow <130.11.177.100:63820>
+01/17/12 09:06:58 Submitting machine is "igsarmewfsm00.er.usgs.gov"
+01/17/12 09:06:58 setting the orig job name in starter
+01/17/12 09:06:58 setting the orig job iwd in starter
+01/17/12 09:08:38 File transfer completed successfully.
+01/17/12 09:08:38 Job 225.169 set to execute immediately
+01/17/12 09:08:38 Starting a VANILLA universe job with ID: 225.169
+01/17/12 09:08:38 Tracking process family by login "condor-reuse-slot1"
+01/17/12 09:08:38 IWD: C:\Condor\execute\dir_2876
+01/17/12 09:08:38 Output file: streaming from remote file condor_output/SC1_225_169.out
+01/17/12 09:08:38 Error file: streaming from remote file condor_output/SC1_225_169.err
+01/17/12 09:08:38 Renice expr "10" evaluated to 10
+01/17/12 09:08:38 About to exec C:\Condor\execute\dir_2876\condor_exec.bat 130.11.177.100 4041
+01/17/12 09:08:38 Executable is a batch file, running: "C:\Windows\system32\cmd.exe" /Q /C "C:\Condor\execute\dir_2876\condor_exec.bat" 130.11.177.100 4041
+01/17/12 09:08:38 Create_Process succeeded, pid=2968
+01/17/12 18:43:31 Process exited, pid=2968, status=1
+01/17/12 18:43:41 Got SIGQUIT.  Performing fast shutdown.
+01/17/12 18:43:41 ShutdownFast all jobs.
+01/17/12 18:43:41 **** condor_starter (condor_STARTER) pid 2876 EXITING WITH STATUS 0
+01/23/12 17:32:12 Locale: English_United States.1252
+01/23/12 17:32:12 Setting maximum accepts per cycle 4.
+01/23/12 17:32:12 ******************************************************
+01/23/12 17:32:12 ** condor_starter (CONDOR_STARTER) STARTING UP
+01/23/12 17:32:12 ** C:\Condor\bin\condor_starter.exe
+01/23/12 17:32:12 ** SubsystemInfo: name=STARTER type=STARTER(8) class=DAEMON(1)
+01/23/12 17:32:12 ** Configuration: subsystem:STARTER local:<NONE> class:DAEMON
+01/23/12 17:32:12 ** $CondorVersion: 7.6.1 May 31 2011 BuildID: 339001 $
+01/23/12 17:32:12 ** $CondorPlatform: x86_winnt_5.1 $
+01/23/12 17:32:12 ** PID = 424
+01/23/12 17:32:12 ** Log last touched 1/17 18:43:41
+01/23/12 17:32:12 ******************************************************
+01/23/12 17:32:12 Using config source: c:\Condor\condor_config
+01/23/12 17:32:12 Using local config sources: 
+01/23/12 17:32:12    C:\Condor/condor_config.local
+01/23/12 17:32:12 DaemonCore: command socket at <169.254.95.120:58292>
+01/23/12 17:32:12 DaemonCore: private command socket at <169.254.95.120:58292>
+01/23/12 17:32:12 Setting maximum accepts per cycle 4.
+01/23/12 17:32:12 GLEXEC_JOB not supported on this platform; ignoring
+01/23/12 17:32:12 Setting resource limits not implemented!
+01/23/12 17:32:12 Communicating with shadow <130.11.177.100:50606>
+01/23/12 17:32:12 Submitting machine is "igsarmewfsm00.er.usgs.gov"
+01/23/12 17:32:12 setting the orig job name in starter
+01/23/12 17:32:12 setting the orig job iwd in starter
+01/23/12 17:34:40 File transfer completed successfully.
+01/23/12 17:34:41 Job 237.175 set to execute immediately
+01/23/12 17:34:41 Starting a VANILLA universe job with ID: 237.175
+01/23/12 17:34:41 Tracking process family by login "condor-reuse-slot1"
+01/23/12 17:34:41 IWD: C:\Condor\execute\dir_424
+01/23/12 17:34:41 Output file: streaming from remote file condor_output/w_237_175.out
+01/23/12 17:34:41 Error file: streaming from remote file condor_output/w_237_175.err
+01/23/12 17:34:42 Renice expr "10" evaluated to 10
+01/23/12 17:34:42 About to exec C:\Condor\execute\dir_424\condor_exec.bat igsarmewfsm00.er.usgs.gov 404040
+01/23/12 17:34:42 Executable is a batch file, running: "C:\Windows\system32\cmd.exe" /Q /C "C:\Condor\execute\dir_424\condor_exec.bat" igsarmewfsm00.er.usgs.gov 404040
+01/23/12 17:34:42 Create_Process succeeded, pid=1808
+01/23/12 18:56:03 Process exited, pid=1808, status=0
+01/23/12 18:56:03 Got SIGQUIT.  Performing fast shutdown.
+01/23/12 18:56:03 ShutdownFast all jobs.
+01/23/12 18:56:04 **** condor_starter (condor_STARTER) pid 424 EXITING WITH STATUS 0
+01/24/12 21:52:42 Locale: English_United States.1252
+01/24/12 21:52:42 Setting maximum accepts per cycle 4.
+01/24/12 21:52:42 ******************************************************
+01/24/12 21:52:42 ** condor_starter (CONDOR_STARTER) STARTING UP
+01/24/12 21:52:42 ** C:\Condor\bin\condor_starter.exe
+01/24/12 21:52:42 ** SubsystemInfo: name=STARTER type=STARTER(8) class=DAEMON(1)
+01/24/12 21:52:42 ** Configuration: subsystem:STARTER local:<NONE> class:DAEMON
+01/24/12 21:52:42 ** $CondorVersion: 7.6.1 May 31 2011 BuildID: 339001 $
+01/24/12 21:52:42 ** $CondorPlatform: x86_winnt_5.1 $
+01/24/12 21:52:42 ** PID = 3472
+01/24/12 21:52:42 ** Log last touched 1/23 18:56:04
+01/24/12 21:52:42 ******************************************************
+01/24/12 21:52:42 Using config source: c:\Condor\condor_config
+01/24/12 21:52:42 Using local config sources: 
+01/24/12 21:52:42    C:\Condor/condor_config.local
+01/24/12 21:52:42 DaemonCore: command socket at <169.254.95.120:53007>
+01/24/12 21:52:42 DaemonCore: private command socket at <169.254.95.120:53007>
+01/24/12 21:52:42 Setting maximum accepts per cycle 4.
+01/24/12 21:52:42 GLEXEC_JOB not supported on this platform; ignoring
+01/24/12 21:52:42 Setting resource limits not implemented!
+01/24/12 21:52:42 Communicating with shadow <130.11.177.100:58944>
+01/24/12 21:52:42 Submitting machine is "igsarmewfsm00.er.usgs.gov"
+01/24/12 21:52:42 setting the orig job name in starter
+01/24/12 21:52:42 setting the orig job iwd in starter
+01/24/12 21:55:20 File transfer completed successfully.
+01/24/12 21:55:20 Job 238.204 set to execute immediately
+01/24/12 21:55:20 Starting a VANILLA universe job with ID: 238.204
+01/24/12 21:55:20 Tracking process family by login "condor-reuse-slot1"
+01/24/12 21:55:20 IWD: C:\Condor\execute\dir_3472
+01/24/12 21:55:20 Output file: streaming from remote file condor_output/wTL_238_204.out
+01/24/12 21:55:20 Error file: streaming from remote file condor_output/wTL_238_204.err
+01/24/12 21:55:20 Renice expr "10" evaluated to 10
+01/24/12 21:55:20 About to exec C:\Condor\execute\dir_3472\condor_exec.bat 130.11.177.100 4041
+01/24/12 21:55:20 Executable is a batch file, running: "C:\Windows\system32\cmd.exe" /Q /C "C:\Condor\execute\dir_3472\condor_exec.bat" 130.11.177.100 4041
+01/24/12 21:55:20 Create_Process succeeded, pid=2892
+02/01/12 10:38:33 Process exited, pid=2892, status=1
+02/01/12 10:38:50 Got SIGQUIT.  Performing fast shutdown.
+02/01/12 10:38:50 ShutdownFast all jobs.
+02/01/12 10:38:50 **** condor_starter (condor_STARTER) pid 3472 EXITING WITH STATUS 0
+02/01/12 14:11:26 Locale: English_United States.1252
+02/01/12 14:11:26 Setting maximum accepts per cycle 4.
+02/01/12 14:11:26 ******************************************************
+02/01/12 14:11:26 ** condor_starter (CONDOR_STARTER) STARTING UP
+02/01/12 14:11:26 ** C:\Condor\bin\condor_starter.exe
+02/01/12 14:11:26 ** SubsystemInfo: name=STARTER type=STARTER(8) class=DAEMON(1)
+02/01/12 14:11:26 ** Configuration: subsystem:STARTER local:<NONE> class:DAEMON
+02/01/12 14:11:26 ** $CondorVersion: 7.6.1 May 31 2011 BuildID: 339001 $
+02/01/12 14:11:26 ** $CondorPlatform: x86_winnt_5.1 $
+02/01/12 14:11:26 ** PID = 3332
+02/01/12 14:11:26 ** Log last touched 2/1 10:38:50
+02/01/12 14:11:26 ******************************************************
+02/01/12 14:11:26 Using config source: c:\Condor\condor_config
+02/01/12 14:11:26 Using local config sources: 
+02/01/12 14:11:26    C:\Condor/condor_config.local
+02/01/12 14:11:26 DaemonCore: command socket at <169.254.95.120:49329>
+02/01/12 14:11:26 DaemonCore: private command socket at <169.254.95.120:49329>
+02/01/12 14:11:26 Setting maximum accepts per cycle 4.
+02/01/12 14:11:26 GLEXEC_JOB not supported on this platform; ignoring
+02/01/12 14:11:26 Setting resource limits not implemented!
+02/01/12 14:11:26 Communicating with shadow <130.11.177.100:58604>
+02/01/12 14:11:26 Submitting machine is "igsarmewfsm00.er.usgs.gov"
+02/01/12 14:11:26 setting the orig job name in starter
+02/01/12 14:11:26 setting the orig job iwd in starter
+02/01/12 14:11:31 File transfer completed successfully.
+02/01/12 14:11:32 Job 252.12 set to execute immediately
+02/01/12 14:11:32 Starting a VANILLA universe job with ID: 252.12
+02/01/12 14:11:32 Tracking process family by login "condor-reuse-slot1"
+02/01/12 14:11:32 IWD: C:\Condor\execute\dir_3332
+02/01/12 14:11:32 Output file: C:\Condor\execute\dir_3332\_condor_stdout
+02/01/12 14:11:32 Error file: C:\Condor\execute\dir_3332\_condor_stderr
+02/01/12 14:11:32 Renice expr "10" evaluated to 10
+02/01/12 14:11:32 About to exec C:\Condor\execute\dir_3332\condor_exec.bat igsarmewfsm00.er.usgs.gov 404240
+02/01/12 14:11:32 Executable is a batch file, running: "C:\Windows\system32\cmd.exe" /Q /C "C:\Condor\execute\dir_3332\condor_exec.bat" igsarmewfsm00.er.usgs.gov 404240
+02/01/12 14:11:32 Create_Process succeeded, pid=4684
+02/01/12 14:14:34 Got SIGQUIT.  Performing fast shutdown.
+02/01/12 14:14:34 ShutdownFast all jobs.
+02/01/12 14:14:34 Process exited, pid=4684, status=0
+02/01/12 14:14:36 Last process exited, now Starter is exiting
+02/01/12 14:14:45 **** condor_starter (condor_STARTER) pid 3332 EXITING WITH STATUS 0
+02/01/12 14:27:28 Locale: English_United States.1252
+02/01/12 14:27:28 Setting maximum accepts per cycle 4.
+02/01/12 14:27:28 ******************************************************
+02/01/12 14:27:28 ** condor_starter (CONDOR_STARTER) STARTING UP
+02/01/12 14:27:28 ** C:\Condor\bin\condor_starter.exe
+02/01/12 14:27:28 ** SubsystemInfo: name=STARTER type=STARTER(8) class=DAEMON(1)
+02/01/12 14:27:28 ** Configuration: subsystem:STARTER local:<NONE> class:DAEMON
+02/01/12 14:27:28 ** $CondorVersion: 7.6.1 May 31 2011 BuildID: 339001 $
+02/01/12 14:27:28 ** $CondorPlatform: x86_winnt_5.1 $
+02/01/12 14:27:28 ** PID = 676
+02/01/12 14:27:28 ** Log last touched 2/1 14:14:45
+02/01/12 14:27:28 ******************************************************
+02/01/12 14:27:28 Using config source: c:\Condor\condor_config
+02/01/12 14:27:28 Using local config sources: 
+02/01/12 14:27:28    C:\Condor/condor_config.local
+02/01/12 14:27:28 DaemonCore: command socket at <169.254.95.120:51725>
+02/01/12 14:27:28 DaemonCore: private command socket at <169.254.95.120:51725>
+02/01/12 14:27:28 Setting maximum accepts per cycle 4.
+02/01/12 14:27:28 GLEXEC_JOB not supported on this platform; ignoring
+02/01/12 14:27:28 Setting resource limits not implemented!
+02/01/12 14:27:28 Communicating with shadow <130.11.177.100:59456>
+02/01/12 14:27:28 Submitting machine is "igsarmewfsm00.er.usgs.gov"
+02/01/12 14:27:28 setting the orig job name in starter
+02/01/12 14:27:28 setting the orig job iwd in starter
+02/01/12 14:27:31 File transfer completed successfully.
+02/01/12 14:27:32 Job 254.11 set to execute immediately
+02/01/12 14:27:32 Starting a VANILLA universe job with ID: 254.11
+02/01/12 14:27:32 Tracking process family by login "condor-reuse-slot1"
+02/01/12 14:27:32 IWD: C:\Condor\execute\dir_676
+02/01/12 14:27:32 Output file: C:\Condor\execute\dir_676\_condor_stdout
+02/01/12 14:27:32 Error file: C:\Condor\execute\dir_676\_condor_stderr
+02/01/12 14:27:32 Renice expr "10" evaluated to 10
+02/01/12 14:27:32 About to exec C:\Condor\execute\dir_676\condor_exec.bat igsarmewfsm00.er.usgs.gov 404240
+02/01/12 14:27:32 Executable is a batch file, running: "C:\Windows\system32\cmd.exe" /Q /C "C:\Condor\execute\dir_676\condor_exec.bat" igsarmewfsm00.er.usgs.gov 404240
+02/01/12 14:27:32 Create_Process succeeded, pid=1576
+02/01/12 14:58:56 Got SIGQUIT.  Performing fast shutdown.
+02/01/12 14:58:56 ShutdownFast all jobs.
+02/01/12 14:58:56 Process exited, pid=1576, status=1
+02/01/12 14:58:57 Last process exited, now Starter is exiting
+02/01/12 14:59:06 **** condor_starter (condor_STARTER) pid 676 EXITING WITH STATUS 0
+02/01/12 15:16:24 Locale: English_United States.1252
+02/01/12 15:16:24 Setting maximum accepts per cycle 4.
+02/01/12 15:16:24 ******************************************************
+02/01/12 15:16:24 ** condor_starter (CONDOR_STARTER) STARTING UP
+02/01/12 15:16:24 ** C:\Condor\bin\condor_starter.exe
+02/01/12 15:16:24 ** SubsystemInfo: name=STARTER type=STARTER(8) class=DAEMON(1)
+02/01/12 15:16:24 ** Configuration: subsystem:STARTER local:<NONE> class:DAEMON
+02/01/12 15:16:24 ** $CondorVersion: 7.6.1 May 31 2011 BuildID: 339001 $
+02/01/12 15:16:24 ** $CondorPlatform: x86_winnt_5.1 $
+02/01/12 15:16:24 ** PID = 1972
+02/01/12 15:16:24 ** Log last touched 2/1 14:59:06
+02/01/12 15:16:24 ******************************************************
+02/01/12 15:16:24 Using config source: c:\Condor\condor_config
+02/01/12 15:16:24 Using local config sources: 
+02/01/12 15:16:24    C:\Condor/condor_config.local
+02/01/12 15:16:24 DaemonCore: command socket at <169.254.95.120:51736>
+02/01/12 15:16:24 DaemonCore: private command socket at <169.254.95.120:51736>
+02/01/12 15:16:24 Setting maximum accepts per cycle 4.
+02/01/12 15:16:24 GLEXEC_JOB not supported on this platform; ignoring
+02/01/12 15:16:24 Setting resource limits not implemented!
+02/01/12 15:16:24 Communicating with shadow <130.11.177.100:61006>
+02/01/12 15:16:24 Submitting machine is "igsarmewfsm00.er.usgs.gov"
+02/01/12 15:16:24 setting the orig job name in starter
+02/01/12 15:16:24 setting the orig job iwd in starter
+02/01/12 15:16:32 File transfer completed successfully.
+02/01/12 15:16:33 Job 255.36 set to execute immediately
+02/01/12 15:16:33 Starting a VANILLA universe job with ID: 255.36
+02/01/12 15:16:33 Tracking process family by login "condor-reuse-slot1"
+02/01/12 15:16:33 IWD: C:\Condor\execute\dir_1972
+02/01/12 15:16:33 Output file: streaming from remote file condor_output/w_255_36.out
+02/01/12 15:16:33 Error file: streaming from remote file condor_output/w_255_36.err
+02/01/12 15:16:33 Renice expr "10" evaluated to 10
+02/01/12 15:16:33 About to exec C:\Condor\execute\dir_1972\condor_exec.bat igsarmewfsm00.er.usgs.gov 404240
+02/01/12 15:16:33 Executable is a batch file, running: "C:\Windows\system32\cmd.exe" /Q /C "C:\Condor\execute\dir_1972\condor_exec.bat" igsarmewfsm00.er.usgs.gov 404240
+02/01/12 15:16:33 Create_Process succeeded, pid=4348
+02/01/12 15:17:08 Got SIGQUIT.  Performing fast shutdown.
+02/01/12 15:17:08 ShutdownFast all jobs.
+02/01/12 15:17:08 Process exited, pid=4348, status=0
+02/01/12 15:17:08 Last process exited, now Starter is exiting
+02/01/12 15:17:17 **** condor_starter (condor_STARTER) pid 1972 EXITING WITH STATUS 0
+02/01/12 15:18:17 Locale: English_United States.1252
+02/01/12 15:18:17 Setting maximum accepts per cycle 4.
+02/01/12 15:18:17 ******************************************************
+02/01/12 15:18:17 ** condor_starter (CONDOR_STARTER) STARTING UP
+02/01/12 15:18:17 ** C:\Condor\bin\condor_starter.exe
+02/01/12 15:18:17 ** SubsystemInfo: name=STARTER type=STARTER(8) class=DAEMON(1)
+02/01/12 15:18:17 ** Configuration: subsystem:STARTER local:<NONE> class:DAEMON
+02/01/12 15:18:17 ** $CondorVersion: 7.6.1 May 31 2011 BuildID: 339001 $
+02/01/12 15:18:17 ** $CondorPlatform: x86_winnt_5.1 $
+02/01/12 15:18:17 ** PID = 4116
+02/01/12 15:18:17 ** Log last touched 2/1 15:17:17
+02/01/12 15:18:17 ******************************************************
+02/01/12 15:18:17 Using config source: c:\Condor\condor_config
+02/01/12 15:18:17 Using local config sources: 
+02/01/12 15:18:17    C:\Condor/condor_config.local
+02/01/12 15:18:17 DaemonCore: command socket at <169.254.95.120:51770>
+02/01/12 15:18:17 DaemonCore: private command socket at <169.254.95.120:51770>
+02/01/12 15:18:17 Setting maximum accepts per cycle 4.
+02/01/12 15:18:17 GLEXEC_JOB not supported on this platform; ignoring
+02/01/12 15:18:17 Setting resource limits not implemented!
+02/01/12 15:18:17 Communicating with shadow <130.11.177.100:61505>
+02/01/12 15:18:17 Submitting machine is "igsarmewfsm00.er.usgs.gov"
+02/01/12 15:18:17 setting the orig job name in starter
+02/01/12 15:18:17 setting the orig job iwd in starter
+02/01/12 15:18:26 File transfer completed successfully.
+02/01/12 15:18:27 Job 256.36 set to execute immediately
+02/01/12 15:18:27 Starting a VANILLA universe job with ID: 256.36
+02/01/12 15:18:27 Tracking process family by login "condor-reuse-slot1"
+02/01/12 15:18:27 IWD: C:\Condor\execute\dir_4116
+02/01/12 15:18:27 Output file: streaming from remote file condor_output/w_256_36.out
+02/01/12 15:18:27 Error file: streaming from remote file condor_output/w_256_36.err
+02/01/12 15:18:27 Renice expr "10" evaluated to 10
+02/01/12 15:18:27 About to exec C:\Condor\execute\dir_4116\condor_exec.bat igsarmewfsm00.er.usgs.gov 404240
+02/01/12 15:18:27 Executable is a batch file, running: "C:\Windows\system32\cmd.exe" /Q /C "C:\Condor\execute\dir_4116\condor_exec.bat" igsarmewfsm00.er.usgs.gov 404240
+02/01/12 15:18:27 Create_Process succeeded, pid=4436
+02/01/12 15:28:15 Got SIGQUIT.  Performing fast shutdown.
+02/01/12 15:28:15 ShutdownFast all jobs.
+02/01/12 15:28:15 Process exited, pid=4436, status=0
+02/01/12 15:28:15 Last process exited, now Starter is exiting
+02/01/12 15:28:20 **** condor_starter (condor_STARTER) pid 4116 EXITING WITH STATUS 0
+02/01/12 16:47:44 Locale: English_United States.1252
+02/01/12 16:47:44 Setting maximum accepts per cycle 4.
+02/01/12 16:47:44 ******************************************************
+02/01/12 16:47:44 ** condor_starter (CONDOR_STARTER) STARTING UP
+02/01/12 16:47:44 ** C:\Condor\bin\condor_starter.exe
+02/01/12 16:47:44 ** SubsystemInfo: name=STARTER type=STARTER(8) class=DAEMON(1)
+02/01/12 16:47:44 ** Configuration: subsystem:STARTER local:<NONE> class:DAEMON
+02/01/12 16:47:44 ** $CondorVersion: 7.6.1 May 31 2011 BuildID: 339001 $
+02/01/12 16:47:44 ** $CondorPlatform: x86_winnt_5.1 $
+02/01/12 16:47:44 ** PID = 4432
+02/01/12 16:47:44 ** Log last touched 2/1 15:28:21
+02/01/12 16:47:44 ******************************************************
+02/01/12 16:47:44 Using config source: c:\Condor\condor_config
+02/01/12 16:47:44 Using local config sources: 
+02/01/12 16:47:44    C:\Condor/condor_config.local
+02/01/12 16:47:44 DaemonCore: command socket at <169.254.95.120:61487>
+02/01/12 16:47:44 DaemonCore: private command socket at <169.254.95.120:61487>
+02/01/12 16:47:44 Setting maximum accepts per cycle 4.
+02/01/12 16:47:44 GLEXEC_JOB not supported on this platform; ignoring
+02/01/12 16:47:44 Setting resource limits not implemented!
+02/01/12 16:47:44 Communicating with shadow <130.11.177.100:63667>
+02/01/12 16:47:44 Submitting machine is "igsarmewfsm00.er.usgs.gov"
+02/01/12 16:47:44 setting the orig job name in starter
+02/01/12 16:47:44 setting the orig job iwd in starter
+02/01/12 16:47:53 File transfer completed successfully.
+02/01/12 16:47:54 Job 260.28 set to execute immediately
+02/01/12 16:47:54 Starting a VANILLA universe job with ID: 260.28
+02/01/12 16:47:54 Tracking process family by login "condor-reuse-slot1"
+02/01/12 16:47:54 IWD: C:\Condor\execute\dir_4432
+02/01/12 16:47:54 Output file: streaming from remote file condor_output/w_260_28.out
+02/01/12 16:47:54 Error file: streaming from remote file condor_output/w_260_28.err
+02/01/12 16:47:54 Renice expr "10" evaluated to 10
+02/01/12 16:47:54 About to exec C:\Condor\execute\dir_4432\condor_exec.bat igsarmewfsm00.er.usgs.gov 404240
+02/01/12 16:47:54 Executable is a batch file, running: "C:\Windows\system32\cmd.exe" /Q /C "C:\Condor\execute\dir_4432\condor_exec.bat" igsarmewfsm00.er.usgs.gov 404240
+02/01/12 16:47:54 Create_Process succeeded, pid=5028
+02/01/12 16:49:15 Got SIGQUIT.  Performing fast shutdown.
+02/01/12 16:49:15 ShutdownFast all jobs.
+02/01/12 16:49:15 Process exited, pid=5028, status=1
+02/01/12 16:49:16 Last process exited, now Starter is exiting
+02/01/12 16:49:36 **** condor_starter (condor_STARTER) pid 4432 EXITING WITH STATUS 0
