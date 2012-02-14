@@ -1,6 +1,2 @@
  PestNode   CondorRun         MachineName        IPAddress          RunDir      Slot
-        1       243.0       igsarmewwsm29   130.11.177.129        dir_3508     slot1
-        2       243.1       igsarmewwsm29   130.11.177.129        dir_3552     slot2
-       44      243.62             wicon11    130.11.177.83         dir_556     slot1
-       57      243.63             wicon11    130.11.177.83        dir_3424     slot2
-       86      243.64             wicon11    130.11.177.83        dir_4972     slot3
+        1       250.0       igsarmewwsm29   130.11.177.129        dir_3508     slot5

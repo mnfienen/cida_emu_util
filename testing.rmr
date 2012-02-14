@@ -18,7 +18,4 @@
 
  Running model 202 times....
    13:40:08.43:- index of 1 assigned to node at working directory "130.11.177.129\\D:\condor\execute\dir_3508".
-   13:40:08.43:- index of 2 assigned to node at working directory "130.11.177.129\\D:\condor\execute\dir_3552".
-   13:40:40.43:- index of 44 assigned to node at working directory "130.11.177.83\\C:\Condor\execute\dir_556".
-   13:40:47.54:- index of 57 assigned to node at working directory "130.11.177.83\\C:\Condor\execute\dir_3424".
-   13:41:03.83:- index of 86 assigned to node at working directory "130.11.177.83\\C:\Condor\execute\dir_4972".
+

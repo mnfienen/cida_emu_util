@@ -1,11 +1,12 @@
 import re
 import os
 import numpy as np
-from JOB_LOCATOR_UTILITIES import parse_slot_log, logfail,cqrfail
+from JOB_LOCATOR_UTILITIES import parse_job_file, logfail,cqrfail
 
 rmr_file       = 'testing.rmr'
 user_name      = 'rjhunt-pr'
 IP_lookup_file = 'name_IP_lookup.dat'
+cluster_num    = 250
 
 class PESTnum:
     def __init__(self,pestnum,runloc):
@@ -23,6 +24,7 @@ class CONDORnum:
         self.condorslot = condorslot.split('@')[0]
         self.condormachine = condorslot.split('@')[1]
         self.condormachname = self.condormachine.split('.')[0]
+        
         
 # ### Read in and parse the IP lookup file
 indat = np.genfromtxt(IP_lookup_file,dtype=None,names=True)
@@ -54,17 +56,15 @@ for line in indat:
         
 # ### Go through the Condor jobs and find the run directories for each Condor job
 for crun in CONDORruns:
-    #os.system ('condor_fetchlog ' + crun.condormachine + ' starter.' + crun.condorslot +
-    #           ' > ' + crun.condormachname + "." + crun.condorslot)
-    indat = open(crun.condormachname + "." + crun.condorslot).readlines()
-    #os.remove(os.path.join(os.getcwd(),crun.condormachname + "." + crun.condorslot))
-    curd,lognum = parse_slot_log(indat)  
-    jj = curd.split('\\')
-    for i in jj:
-        if 'dir_' in i.lower():
-            crun.rundir = i.lower()
-            if crun.condornum != lognum[0]:
-                raise(logfail(lognum[0],crun.condornum,crun.condormachname,crun.condorslot))
+    ccluster = crun.condornum.split('.')[0]
+    if int(ccluster) == cluster_num:
+        currip,curd = parse_job_file(int(ccluster),crun.condornum.split('.')[1])
+        jj = curd.split('\\')
+        for i in jj:
+            if 'dir_' in i.lower():
+                crun.rundir = i.lower()
+#depracated                if crun.condornum != lognum[0]:
+#depracated                    raise(logfail(lognum[0],crun.condornum,crun.condormachname,crun.condorslot))
             
 # ### prepare an output file
 ofp = open(rmr_file[:-4] + '_jobs_machines.dat','w')
