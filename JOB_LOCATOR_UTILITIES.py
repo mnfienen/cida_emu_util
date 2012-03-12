@@ -4,18 +4,12 @@ import os
 # ## Parse a process (job) log file
 def parse_job_file(clusterno,jobno):
     indat = open(os.path.join(os.getcwd(),'condor_output','w_%d_%d.out' %(int(clusterno),int(jobno))),'r').readlines()
-    dirline = -1
-    gingerbread = 0
+    
     for line in indat:
-        if gingerbread == 0:
-            dirline+=1
-        if '>cd' in line.lower():
-            dirline += 1
-            gingerbread = 1
-        elif 'ipv4 address' in line.lower():
+        if 'ipv4 address' in line.lower():
             currip = line.strip().split()[-1]
             break
-        currdir = indat[dirline]
+        currdir = indat[0]
     return currip,currdir
 
 # ## Parse a slot log file 
