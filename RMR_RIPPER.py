@@ -24,11 +24,11 @@ class arun:
         self.elapsed_time = 0
         
         
-intimefmt = "%H:%M:%f" # we will ignore the microseconds
+intimefmt = "%d %b %H:%M:%f" # we will ignore the microseconds
   #################################################
  # INSERT THE RMR FILENAME AND UNITS CHOICE BELOW #
 ##################################################
-rmrfile = 'finale21f_reg_svd2.rmr'
+rmrfile = 'step4u_reg.rmr'
 timeunits = 'hours' # options are 'minutes','seconds','hours'
 
 
