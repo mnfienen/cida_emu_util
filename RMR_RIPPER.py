@@ -46,14 +46,9 @@ indat = open(rmrfile,'r')
 # make a list of nodes - each is a member of class PESTsum
 ALLNODES = []
 
-k = -1
 # read the RMR file and populate the PESTsum class members --> also calculate times of all full runs
 for line in indat:
-    k+=1
-    if k==433:
-        i =1
-    elif k==905:
-        i=1
+
     if 'assigned to node at working directory' in line:
         cnode = int(re.findall("index of (.*?) assigned to node at working",line)[0])
         runloc = line.strip().split()[-1][1:-2]
@@ -77,13 +72,18 @@ for line in indat:
             if (current_run.runnum == crun):
                 if current_run.elapsed_time == 0:
                     current_run.endtime = endtime
-                    # if the time turns the corner around midnight, assume the end time is in the 
-                    # next day (NB-->this doesn't account for times longer than 24 hours)
-                    if current_run.endtime < current_run.starttime:
-                        current_run.endtime += timedelta(days=1)
                     # calculate the total time in seconds
                     current_run.elapsed_time = (current_run.endtime-
                                                 current_run.starttime).total_seconds()
+       
+    elif 'model run failure' in line:
+        crun = int(re.findall("attempt model run (.*?) one more ",line)[0])
+        cnode = int(re.findall("model run failure on node (.*?); will",line)[0])
+        jj = -1
+        for centry in ALLNODES[cnode-1].runs:
+                jj+=1                    
+                if centry.runnum == crun:
+                    del ALLNODES[cnode-1].runs[jj]
 del indat
 
 allruns = []
