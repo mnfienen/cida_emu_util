@@ -12,6 +12,10 @@ class PESTsum:
         for i in runlocsplit:
             if 'dir_' in i.lower():
                 self.rundir = i.lower()
+            elif 'd:' in i.lower():
+                self.rundir = i.lower()            
+            elif 'c:' in i.lower():
+                self.rundir = i.lower()            
         self.nodestart = timestart
         self.runs = []
         
@@ -24,12 +28,12 @@ class arun:
         self.elapsed_time = 0
         
         
-intimefmt = "%H:%M:%f" # we will ignore the microseconds
-#intimefmt = "%d %b %H:%M:%f" # we will ignore the microseconds
+#intimefmt = "%H:%M:%f" # we will ignore the microseconds
+intimefmt = "%d %b %H:%M:%f" # we will ignore the microseconds
   #################################################
  # INSERT THE RMR FILENAME AND UNITS CHOICE BELOW #
 ##################################################
-rmrfile = 'ass10con11_reg.rmr'
+rmrfile = 'mcr.rmr'
 timeunits = 'hours' # options are 'minutes','seconds','hours'
 
 
@@ -40,7 +44,7 @@ timeunits = timeunits.lower()
 indat = np.genfromtxt(IP_lookup_file,dtype=None,names=True)
 IPlookup = dict(zip(indat['comp_name'],indat['IP_address']))
 NAMElookup = dict(zip(indat['IP_address'],indat['comp_name']))
-del indat
+del indat 
 
 indat = open(rmrfile,'r')
 
